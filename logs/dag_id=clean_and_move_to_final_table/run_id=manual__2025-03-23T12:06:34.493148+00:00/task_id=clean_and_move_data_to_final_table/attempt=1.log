@@ -1,0 +1,74 @@
+[2025-03-23T12:06:37.768+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clean_and_move_to_final_table.clean_and_move_data_to_final_table manual__2025-03-23T12:06:34.493148+00:00 [queued]>
+[2025-03-23T12:06:37.780+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clean_and_move_to_final_table.clean_and_move_data_to_final_table manual__2025-03-23T12:06:34.493148+00:00 [queued]>
+[2025-03-23T12:06:37.781+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-03-23T12:06:37.800+0000] {taskinstance.py:2214} INFO - Executing <Task(BigQueryInsertJobOperator): clean_and_move_data_to_final_table> on 2025-03-23 12:06:34.493148+00:00
+[2025-03-23T12:06:37.805+0000] {standard_task_runner.py:60} INFO - Started process 4937 to run task
+[2025-03-23T12:06:37.810+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'clean_and_move_to_final_table', 'clean_and_move_data_to_final_table', 'manual__2025-03-23T12:06:34.493148+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/step_four.py', '--cfg-path', '/tmp/tmprv33nrpm']
+[2025-03-23T12:06:37.812+0000] {standard_task_runner.py:88} INFO - Job 80: Subtask clean_and_move_data_to_final_table
+[2025-03-23T12:06:37.876+0000] {task_command.py:423} INFO - Running <TaskInstance: clean_and_move_to_final_table.clean_and_move_data_to_final_table manual__2025-03-23T12:06:34.493148+00:00 [running]> on host c0ff61c5806f
+[2025-03-23T12:06:37.945+0000] {abstractoperator.py:707} ERROR - Exception rendering Jinja template for task 'clean_and_move_data_to_final_table', field 'configuration'. Template: {'query': {'query': '-- clean_and_move_data.sql\nCREATE OR REPLACE TABLE `{{project_id}}.{{dataset_id}}.{{final_table_id}}` AS\nSELECT\n    `Site_ID`,\n    `Location_description`,\n    `Borough`,\n    `Functional_area_for_monitoring`,\n    `Road_type`,\n    `Easting__UK_Grid_` AS `Easting_UK_Grid`,  -- Updated column name\n    `Northing__UK_Grid_` AS `Northing_UK_Grid`,  -- Updated column name\n    `Latitude`,\n    `Longitude`\nFROM `{{project_id}}.{{dataset_id}}.{{raw_table_id}}`;\n', 'useLegacySql': False, 'parameters': [{'name': 'project_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'dtc-de-course-447820'}}, {'name': 'dataset_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'my_project_dataset'}}, {'name': 'raw_table_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'raw_monitoring_locations'}}, {'name': 'final_table_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'monitoring_locations'}}]}}
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 699, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 174, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 654, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 131, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 289, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 284, in render_template
+    return "".join(nodes)
+  File "<template>", line 16, in root
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'project_id' is undefined
+[2025-03-23T12:06:37.948+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2357, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2495, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2907, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1241, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 699, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 174, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 654, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 131, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 289, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 284, in render_template
+    return "".join(nodes)
+  File "<template>", line 16, in root
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'project_id' is undefined
+[2025-03-23T12:06:37.962+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=clean_and_move_to_final_table, task_id=clean_and_move_data_to_final_table, execution_date=20250323T120634, start_date=20250323T120637, end_date=20250323T120637
+[2025-03-23T12:06:37.980+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 80 for task clean_and_move_data_to_final_table ('project_id' is undefined; 4937)
+[2025-03-23T12:06:38.021+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-03-23T12:06:38.044+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

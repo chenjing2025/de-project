@@ -1,0 +1,80 @@
+[2025-03-23T11:11:29.783+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_raw_data_to_bq.load_raw_data_to_bq manual__2025-03-23T11:11:26.587028+00:00 [queued]>
+[2025-03-23T11:11:29.791+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_raw_data_to_bq.load_raw_data_to_bq manual__2025-03-23T11:11:26.587028+00:00 [queued]>
+[2025-03-23T11:11:29.791+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-03-23T11:11:29.807+0000] {taskinstance.py:2214} INFO - Executing <Task(BigQueryInsertJobOperator): load_raw_data_to_bq> on 2025-03-23 11:11:26.587028+00:00
+[2025-03-23T11:11:29.812+0000] {standard_task_runner.py:60} INFO - Started process 3972 to run task
+[2025-03-23T11:11:29.816+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'load_raw_data_to_bq', 'load_raw_data_to_bq', 'manual__2025-03-23T11:11:26.587028+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/step_two.py', '--cfg-path', '/tmp/tmpqoygcya7']
+[2025-03-23T11:11:29.817+0000] {standard_task_runner.py:88} INFO - Job 49: Subtask load_raw_data_to_bq
+[2025-03-23T11:11:29.865+0000] {task_command.py:423} INFO - Running <TaskInstance: load_raw_data_to_bq.load_raw_data_to_bq manual__2025-03-23T11:11:26.587028+00:00 [running]> on host c0ff61c5806f
+[2025-03-23T11:11:29.911+0000] {abstractoperator.py:707} ERROR - Exception rendering Jinja template for task 'load_raw_data_to_bq', field 'configuration'. Template: {'query': {'query': "-- Create an external table referencing the GCS CSV file\nCREATE OR REPLACE EXTERNAL TABLE `{{ project_id }}.{{ dataset_id }}.external_raw_data`\nOPTIONS (\n  format = 'CSV',\n  uris = ['{{ gcs_uri }}'],\n  skip_leading_rows = 1, -- Skips header row if present\n  autodetect = TRUE -- Automatically detects schema\n);\n\n-- Create or replace the raw table in BigQuery using data from the external table\nCREATE OR REPLACE TABLE `{{ project_id }}.{{ dataset_id }}.{{ raw_table_id }}` AS\nSELECT\n    `Site ID`,\n    `Location description`,\n    `Borough`,\n    `Functional area for monitoring`,\n    `Road type`,\n    `Is it on the strategic CIO panel?`,\n    `Old site ID (legacy)`,\n    `Easting (UK Grid)`,\n    `Northing (UK Grid)`,\n    `Latitude`,\n    `Longitude`\nFROM `{{ project_id }}.{{ dataset_id }}.external_raw_data`;\n", 'useLegacySql': False, 'parameters': [{'name': 'project_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'dtc-de-course-447820'}}, {'name': 'dataset_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'my_project_dataset'}}, {'name': 'raw_table_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'raw_monitoring_locations'}}, {'name': 'gcs_uri', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'gs://my-deproject-data-bucket/test_cycle/monitoring_locations.csv'}}]}}
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 699, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 174, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 654, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 130, in _render
+    return render_template_as_native(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 294, in render_template_as_native
+    return render_template(template, cast(MutableMapping[str, Any], context), native=True)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return jinja2.nativetypes.native_concat(nodes)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/nativetypes.py", line 37, in native_concat
+    raw = "".join([str(v) for v in values])
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/nativetypes.py", line 37, in <listcomp>
+    raw = "".join([str(v) for v in values])
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'project_id' is undefined
+[2025-03-23T11:11:29.913+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2357, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2495, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2907, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1241, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 699, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in render_template
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 186, in <dictcomp>
+    return {k: self.render_template(v, context, jinja_env, oids) for k, v in value.items()}
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 174, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 654, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 130, in _render
+    return render_template_as_native(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 294, in render_template_as_native
+    return render_template(template, cast(MutableMapping[str, Any], context), native=True)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 283, in render_template
+    return jinja2.nativetypes.native_concat(nodes)
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/nativetypes.py", line 37, in native_concat
+    raw = "".join([str(v) for v in values])
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/nativetypes.py", line 37, in <listcomp>
+    raw = "".join([str(v) for v in values])
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'project_id' is undefined
+[2025-03-23T11:11:29.923+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=load_raw_data_to_bq, task_id=load_raw_data_to_bq, execution_date=20250323T111126, start_date=20250323T111129, end_date=20250323T111129
+[2025-03-23T11:11:29.935+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 49 for task load_raw_data_to_bq ('project_id' is undefined; 3972)
+[2025-03-23T11:11:29.948+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-03-23T11:11:29.966+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

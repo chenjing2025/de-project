@@ -1,0 +1,17 @@
+[2025-03-24T11:22:39.938+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_filtered_data_and_upload_to_gcs.fetch_and_upload_2023_W1_spring-Outer.csv manual__2025-03-24T11:22:36.325612+00:00 [queued]>
+[2025-03-24T11:22:39.957+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_filtered_data_and_upload_to_gcs.fetch_and_upload_2023_W1_spring-Outer.csv manual__2025-03-24T11:22:36.325612+00:00 [queued]>
+[2025-03-24T11:22:39.958+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-03-24T11:22:39.989+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_and_upload_2023_W1_spring-Outer.csv> on 2025-03-24 11:22:36.325612+00:00
+[2025-03-24T11:22:39.997+0000] {standard_task_runner.py:60} INFO - Started process 3546 to run task
+[2025-03-24T11:22:40.004+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'fetch_filtered_data_and_upload_to_gcs', 'fetch_and_upload_2023_W1_spring-Outer.csv', 'manual__2025-03-24T11:22:36.325612+00:00', '--job-id', '150', '--raw', '--subdir', 'DAGS_FOLDER/step_one.py', '--cfg-path', '/tmp/tmp2gk21f_j']
+[2025-03-24T11:22:40.010+0000] {standard_task_runner.py:88} INFO - Job 150: Subtask fetch_and_upload_2023_W1_spring-Outer.csv
+[2025-03-24T11:22:40.102+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_filtered_data_and_upload_to_gcs.fetch_and_upload_2023_W1_spring-Outer.csv manual__2025-03-24T11:22:36.325612+00:00 [running]> on host 3d764bfd33f3
+[2025-03-24T11:22:40.315+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_filtered_data_and_upload_to_gcs' AIRFLOW_CTX_TASK_ID='fetch_and_upload_2023_W1_spring-Outer.csv' AIRFLOW_CTX_EXECUTION_DATE='2025-03-24T11:22:36.325612+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-24T11:22:36.325612+00:00'
+[2025-03-24T11:25:26.264+0000] {logging_mixin.py:188} INFO - Fetching URL: https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2023%20W1%20spring-Outer.csv
+[2025-03-24T11:25:26.266+0000] {logging_mixin.py:188} INFO - Cleaned filename: 2023_W1_spring-Outer.csv
+[2025-03-24T11:25:26.267+0000] {logging_mixin.py:188} INFO - GCS path: cycling_data/2023_W1_spring-Outer.csv_20250324112526.csv
+[2025-03-24T11:25:50.794+0000] {logging_mixin.py:188} INFO - Error fetching data from https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2023%20W1%20spring-Outer.csv: ('Connection aborted.', timeout('The write operation timed out'))
+[2025-03-24T11:25:50.796+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-03-24T11:25:50.820+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=fetch_filtered_data_and_upload_to_gcs, task_id=fetch_and_upload_2023_W1_spring-Outer.csv, execution_date=20250324T112236, start_date=20250324T112239, end_date=20250324T112550
+[2025-03-24T11:25:50.853+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-03-24T11:25:50.870+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,28 @@
+[2025-03-24T08:35:06.511+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_filtered_data_and_upload_to_gcs.fetch_filtered_data_and_upload_to_gcs manual__2025-03-24T08:35:04.072704+00:00 [queued]>
+[2025-03-24T08:35:06.521+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_filtered_data_and_upload_to_gcs.fetch_filtered_data_and_upload_to_gcs manual__2025-03-24T08:35:04.072704+00:00 [queued]>
+[2025-03-24T08:35:06.521+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 4
+[2025-03-24T08:35:06.536+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_filtered_data_and_upload_to_gcs> on 2025-03-24 08:35:04.072704+00:00
+[2025-03-24T08:35:06.540+0000] {standard_task_runner.py:60} INFO - Started process 640 to run task
+[2025-03-24T08:35:06.544+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'fetch_filtered_data_and_upload_to_gcs', 'fetch_filtered_data_and_upload_to_gcs', 'manual__2025-03-24T08:35:04.072704+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/step_one.py', '--cfg-path', '/tmp/tmpoz6kug1_']
+[2025-03-24T08:35:06.547+0000] {standard_task_runner.py:88} INFO - Job 103: Subtask fetch_filtered_data_and_upload_to_gcs
+[2025-03-24T08:35:06.610+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_filtered_data_and_upload_to_gcs.fetch_filtered_data_and_upload_to_gcs manual__2025-03-24T08:35:04.072704+00:00 [running]> on host 3d764bfd33f3
+[2025-03-24T08:35:06.716+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_filtered_data_and_upload_to_gcs' AIRFLOW_CTX_TASK_ID='fetch_filtered_data_and_upload_to_gcs' AIRFLOW_CTX_EXECUTION_DATE='2025-03-24T08:35:04.072704+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-24T08:35:04.072704+00:00'
+[2025-03-24T08:35:07.808+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 439, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/step_one.py", line 45, in download_and_upload_multiple_files
+    csv_urls = get_csv_urls_from_website(website_url)
+  File "/opt/airflow/dags/step_one.py", line 25, in get_csv_urls_from_website
+    raise Exception(f"Failed to fetch the website. Status code: {response.status_code}")
+Exception: Failed to fetch the website. Status code: 404
+[2025-03-24T08:35:07.816+0000] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=fetch_filtered_data_and_upload_to_gcs, task_id=fetch_filtered_data_and_upload_to_gcs, execution_date=20250324T083504, start_date=20250324T083506, end_date=20250324T083507
+[2025-03-24T08:35:07.830+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 103 for task fetch_filtered_data_and_upload_to_gcs (Failed to fetch the website. Status code: 404; 640)
+[2025-03-24T08:35:07.844+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-03-24T08:35:07.861+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

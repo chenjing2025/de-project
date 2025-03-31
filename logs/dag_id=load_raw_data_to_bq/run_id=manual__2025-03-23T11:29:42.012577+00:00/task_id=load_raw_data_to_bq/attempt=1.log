@@ -1,0 +1,42 @@
+[2025-03-23T11:30:21.905+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: load_raw_data_to_bq.load_raw_data_to_bq manual__2025-03-23T11:29:42.012577+00:00 [queued]>
+[2025-03-23T11:30:21.918+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: load_raw_data_to_bq.load_raw_data_to_bq manual__2025-03-23T11:29:42.012577+00:00 [queued]>
+[2025-03-23T11:30:21.919+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-03-23T11:30:21.934+0000] {taskinstance.py:2214} INFO - Executing <Task(BigQueryInsertJobOperator): load_raw_data_to_bq> on 2025-03-23 11:29:42.012577+00:00
+[2025-03-23T11:30:21.941+0000] {standard_task_runner.py:60} INFO - Started process 4295 to run task
+[2025-03-23T11:30:21.944+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'load_raw_data_to_bq', 'load_raw_data_to_bq', 'manual__2025-03-23T11:29:42.012577+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/step_two.py', '--cfg-path', '/tmp/tmppzi7mp6n']
+[2025-03-23T11:30:21.945+0000] {standard_task_runner.py:88} INFO - Job 62: Subtask load_raw_data_to_bq
+[2025-03-23T11:29:44.899+0000] {task_command.py:423} INFO - Running <TaskInstance: load_raw_data_to_bq.load_raw_data_to_bq manual__2025-03-23T11:29:42.012577+00:00 [running]> on host c0ff61c5806f
+[2025-03-23T11:29:45.007+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='load_raw_data_to_bq' AIRFLOW_CTX_TASK_ID='load_raw_data_to_bq' AIRFLOW_CTX_EXECUTION_DATE='2025-03-23T11:29:42.012577+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-23T11:29:42.012577+00:00'
+[2025-03-23T11:29:45.023+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-03-23T11:29:45.030+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-03-23T11:29:45.094+0000] {bigquery.py:2808} INFO - Executing: {'query': {'query': "-- Create an external table referencing the GCS CSV file\nCREATE OR REPLACE EXTERNAL TABLE `dtc-de-course-447820.my_project_dataset.external_raw_data`\nOPTIONS (\n  format = 'CSV',\n  uris = ['gs://my-deproject-data-bucket/test_cycle/monitoring_locations.csv'],\n  skip_leading_rows = 1,  -- Skips header row if present\n);\n\n-- Create or replace the raw table in BigQuery using data from the external table\nCREATE OR REPLACE TABLE `dtc-de-course-447820.my_project_dataset.raw_monitoring_locations` AS\nSELECT\n    `Site ID`,\n    `Location description`,\n    `Borough`,\n    `Functional area for monitoring`,\n    `Road type`,\n    `Is it on the strategic CIO panel?`,\n    `Old site ID (legacy)`,\n    `Easting (UK Grid)`,\n    `Northing (UK Grid)`,\n    `Latitude`,\n    `Longitude`\nFROM `dtc-de-course-447820.my_project_dataset.external_raw_data`;", 'useLegacySql': False, 'parameters': [{'name': 'project_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'dtc-de-course-447820'}}, {'name': 'dataset_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'my_project_dataset'}}, {'name': 'raw_table_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'raw_monitoring_locations'}}, {'name': 'gcs_raw_table_id', 'parameterType': {'type': 'STRING'}, 'parameterValue': {'value': 'gs://my-deproject-data-bucket/test_cycle/monitoring_locations.csv'}}]}}'
+[2025-03-23T11:29:45.096+0000] {bigquery.py:1612} INFO - Inserting job ***_load_raw_data_to_bq_load_raw_data_to_bq_2025_03_23T11_29_42_012577_00_00_9a2540238d7d5347f32a65859eef2153
+[2025-03-23T11:29:46.449+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/google/cloud/operators/bigquery.py", line 2867, in execute
+    job.result(timeout=self.result_timeout, retry=self.result_retry)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/query.py", line 1595, in result
+    do_get_result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/query.py", line 1584, in do_get_result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/bigquery/job/base.py", line 971, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/api_core/future/polling.py", line 261, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Syntax error: Unexpected ")" at [7:1]; reason: invalidQuery, location: query, message: Syntax error: Unexpected ")" at [7:1]
+
+Location: US
+Job ID: airflow_load_raw_data_to_bq_load_raw_data_to_bq_2025_03_23T11_29_42_012577_00_00_9a2540238d7d5347f32a65859eef2153
+
+[2025-03-23T11:29:46.460+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=load_raw_data_to_bq, task_id=load_raw_data_to_bq, execution_date=20250323T112942, start_date=20250323T113021, end_date=20250323T112946
+[2025-03-23T11:29:46.473+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 62 for task load_raw_data_to_bq (400 Syntax error: Unexpected ")" at [7:1]; reason: invalidQuery, location: query, message: Syntax error: Unexpected ")" at [7:1]
+
+Location: US
+Job ID: airflow_load_raw_data_to_bq_load_raw_data_to_bq_2025_03_23T11_29_42_012577_00_00_9a2540238d7d5347f32a65859eef2153
+; 4295)
+[2025-03-23T11:29:46.495+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-03-23T11:29:46.512+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

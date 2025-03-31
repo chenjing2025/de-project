@@ -1,0 +1,21 @@
+[2025-03-24T10:25:09.857+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_filtered_data_and_upload_to_gcs.fetch_and_upload_filtered_data manual__2025-03-24T10:24:29.504250+00:00 [queued]>
+[2025-03-24T10:25:09.869+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_filtered_data_and_upload_to_gcs.fetch_and_upload_filtered_data manual__2025-03-24T10:24:29.504250+00:00 [queued]>
+[2025-03-24T10:25:09.869+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-03-24T10:25:09.888+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_and_upload_filtered_data> on 2025-03-24 10:24:29.504250+00:00
+[2025-03-24T10:25:09.895+0000] {standard_task_runner.py:60} INFO - Started process 2539 to run task
+[2025-03-24T10:25:09.902+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'fetch_filtered_data_and_upload_to_gcs', 'fetch_and_upload_filtered_data', 'manual__2025-03-24T10:24:29.504250+00:00', '--job-id', '133', '--raw', '--subdir', 'DAGS_FOLDER/step_one.py', '--cfg-path', '/tmp/tmp4gu1v4w9']
+[2025-03-24T10:25:09.904+0000] {standard_task_runner.py:88} INFO - Job 133: Subtask fetch_and_upload_filtered_data
+[2025-03-24T10:25:09.955+0000] {task_command.py:423} INFO - Running <TaskInstance: fetch_filtered_data_and_upload_to_gcs.fetch_and_upload_filtered_data manual__2025-03-24T10:24:29.504250+00:00 [running]> on host 3d764bfd33f3
+[2025-03-24T10:24:31.919+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_filtered_data_and_upload_to_gcs' AIRFLOW_CTX_TASK_ID='fetch_and_upload_filtered_data' AIRFLOW_CTX_EXECUTION_DATE='2025-03-24T10:24:29.504250+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-24T10:24:29.504250+00:00'
+[2025-03-24T10:24:57.520+0000] {logging_mixin.py:188} INFO - Successfully fetched https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2023%20W1%20spring-Central.csv
+[2025-03-24T10:25:29.189+0000] {logging_mixin.py:188} INFO - Successfully fetched https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2024%20W1%20spring-Central.csv
+[2025-03-24T10:25:30.431+0000] {logging_mixin.py:188} INFO - Successfully fetched https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/1%20Monitoring%20locations.csv
+[2025-03-24T10:25:30.454+0000] {logging_mixin.py:188} INFO - Error processing data from https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/1%20Monitoring%20locations.csv: 'Mode'
+[2025-03-24T10:25:30.515+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-03-24T10:25:30.521+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-03-24T10:26:11.482+0000] {gcs.py:571} INFO - Data stream uploaded to cycling_data/filtered_data_20250324102609.csv in my-deproject-data-bucket bucket
+[2025-03-24T10:26:11.483+0000] {logging_mixin.py:188} INFO - File uploaded to gs://my-deproject-data-bucket/cycling_data/filtered_data_20250324102609.csv
+[2025-03-24T10:26:11.496+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-03-24T10:26:11.505+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=fetch_filtered_data_and_upload_to_gcs, task_id=fetch_and_upload_filtered_data, execution_date=20250324T102429, start_date=20250324T102509, end_date=20250324T102611
+[2025-03-24T10:26:11.540+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-03-24T10:26:11.557+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

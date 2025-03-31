@@ -1,0 +1,16 @@
+[2025-03-24T09:43:05.129+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_fetch_url_csv.upload_2024_W1_spring_Central.csv manual__2025-03-24T09:42:22.627627+00:00 [queued]>
+[2025-03-24T09:43:05.138+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_fetch_url_csv.upload_2024_W1_spring_Central.csv manual__2025-03-24T09:42:22.627627+00:00 [queued]>
+[2025-03-24T09:43:05.138+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-03-24T09:43:05.154+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): upload_2024_W1_spring_Central.csv> on 2025-03-24 09:42:22.627627+00:00
+[2025-03-24T09:43:05.160+0000] {standard_task_runner.py:60} INFO - Started process 1795 to run task
+[2025-03-24T09:43:05.163+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'test_fetch_url_csv', 'upload_2024_W1_spring_Central.csv', 'manual__2025-03-24T09:42:22.627627+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/test_fetch_url_csv.py', '--cfg-path', '/tmp/tmp4xox1wwd']
+[2025-03-24T09:43:05.166+0000] {standard_task_runner.py:88} INFO - Job 121: Subtask upload_2024_W1_spring_Central.csv
+[2025-03-24T09:43:05.213+0000] {task_command.py:423} INFO - Running <TaskInstance: test_fetch_url_csv.upload_2024_W1_spring_Central.csv manual__2025-03-24T09:42:22.627627+00:00 [running]> on host 3d764bfd33f3
+[2025-03-24T09:42:27.132+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_fetch_url_csv' AIRFLOW_CTX_TASK_ID='upload_2024_W1_spring_Central.csv' AIRFLOW_CTX_EXECUTION_DATE='2025-03-24T09:42:22.627627+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-24T09:42:22.627627+00:00'
+[2025-03-24T09:45:43.576+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-03-24T09:45:43.646+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-03-24T09:45:45.942+0000] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2025-03-24T09:45:45.968+0000] {process_utils.py:131} INFO - Sending 15 to group 1795. PIDs of all processes in the group: [1795]
+[2025-03-24T09:45:45.969+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 1795
+[2025-03-24T09:45:45.970+0000] {taskinstance.py:2480} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-03-24T09:45:46.103+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1795, status='terminated', exitcode=0, started='09:43:04') (1795) terminated with exit code 0

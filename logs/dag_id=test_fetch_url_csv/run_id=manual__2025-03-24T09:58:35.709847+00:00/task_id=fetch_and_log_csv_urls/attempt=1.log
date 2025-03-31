@@ -1,0 +1,23 @@
+[2025-03-24T09:58:37.990+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_fetch_url_csv.fetch_and_log_csv_urls manual__2025-03-24T09:58:35.709847+00:00 [queued]>
+[2025-03-24T09:58:38.000+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_fetch_url_csv.fetch_and_log_csv_urls manual__2025-03-24T09:58:35.709847+00:00 [queued]>
+[2025-03-24T09:58:38.001+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-03-24T09:58:38.018+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): fetch_and_log_csv_urls> on 2025-03-24 09:58:35.709847+00:00
+[2025-03-24T09:58:38.023+0000] {standard_task_runner.py:60} INFO - Started process 2093 to run task
+[2025-03-24T09:58:38.027+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'test_fetch_url_csv', 'fetch_and_log_csv_urls', 'manual__2025-03-24T09:58:35.709847+00:00', '--job-id', '128', '--raw', '--subdir', 'DAGS_FOLDER/test_fetch_url_csv.py', '--cfg-path', '/tmp/tmpii5rvuyz']
+[2025-03-24T09:58:38.030+0000] {standard_task_runner.py:88} INFO - Job 128: Subtask fetch_and_log_csv_urls
+[2025-03-24T09:58:38.079+0000] {task_command.py:423} INFO - Running <TaskInstance: test_fetch_url_csv.fetch_and_log_csv_urls manual__2025-03-24T09:58:35.709847+00:00 [running]> on host 3d764bfd33f3
+[2025-03-24T09:58:38.162+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_fetch_url_csv' AIRFLOW_CTX_TASK_ID='fetch_and_log_csv_urls' AIRFLOW_CTX_EXECUTION_DATE='2025-03-24T09:58:35.709847+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-24T09:58:35.709847+00:00'
+[2025-03-24T09:58:38.164+0000] {test_fetch_url_csv.py:45} INFO - Fetching data from: https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2023%20W1%20spring-Central.csv
+[2025-03-24T09:59:17.993+0000] {test_fetch_url_csv.py:51} INFO - Successfully fetched https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2023%20W1%20spring-Central.csv
+[2025-03-24T09:59:17.993+0000] {test_fetch_url_csv.py:45} INFO - Fetching data from: https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2023%20W1%20spring-Outer.csv
+[2025-03-24T10:00:17.600+0000] {test_fetch_url_csv.py:51} INFO - Successfully fetched https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2023%20W1%20spring-Outer.csv
+[2025-03-24T10:00:17.600+0000] {test_fetch_url_csv.py:45} INFO - Fetching data from: https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2024%20W1%20spring-Central.csv
+[2025-03-24T10:00:44.603+0000] {test_fetch_url_csv.py:51} INFO - Successfully fetched https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2024%20W1%20spring-Central.csv
+[2025-03-24T10:00:44.604+0000] {test_fetch_url_csv.py:45} INFO - Fetching data from: https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2024%20W1%20spring-Outer.csv
+[2025-03-24T10:01:25.832+0000] {test_fetch_url_csv.py:51} INFO - Successfully fetched https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/2024%20W1%20spring-Outer.csv
+[2025-03-24T10:01:25.832+0000] {test_fetch_url_csv.py:45} INFO - Fetching data from: https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/1%20Monitoring%20locations.csv
+[2025-03-24T10:01:27.141+0000] {test_fetch_url_csv.py:51} INFO - Successfully fetched https://cycling.data.tfl.gov.uk/ActiveTravelCountsProgramme/1%20Monitoring%20locations.csv
+[2025-03-24T10:01:27.143+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-03-24T10:01:27.156+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=test_fetch_url_csv, task_id=fetch_and_log_csv_urls, execution_date=20250324T095835, start_date=20250324T095837, end_date=20250324T100127
+[2025-03-24T10:01:27.182+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-03-24T10:01:27.199+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

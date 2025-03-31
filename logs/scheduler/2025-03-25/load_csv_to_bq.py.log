@@ -1,0 +1,1155 @@
+[2025-03-25T09:05:14.184+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:05:14.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:05:14.187+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:05:14.186+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:05:14.203+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:05:14.395+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:05:14.394+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:05:14.412+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:05:14.412+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:05:14.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.265 seconds
+[2025-03-25T09:06:04.157+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:06:04.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:06:04.160+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:06:04.159+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:06:04.186+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:06:04.203+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:06:04.202+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:06:04.227+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:06:04.227+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:06:04.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.104 seconds
+[2025-03-25T09:06:34.670+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:06:34.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:06:34.673+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:06:34.673+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:06:34.678+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:06:34.765+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:06:34.765+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:06:34.773+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:06:34.773+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:06:34.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.124 seconds
+[2025-03-25T09:06:39.069+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:06:39.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:06:39.071+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:06:39.071+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:06:39.080+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:06:39.093+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:06:39.093+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:06:39.108+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:06:39.108+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:06:39.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.066 seconds
+[2025-03-25T09:07:09.773+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:07:09.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:07:09.776+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:07:09.776+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:07:09.786+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:07:09.807+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:07:09.807+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:07:09.820+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:07:09.820+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:07:09.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.070 seconds
+[2025-03-25T09:08:29.563+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:08:29.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:08:29.566+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:08:29.565+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:08:29.584+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:08:29.728+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:08:29.727+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:08:29.742+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:08:29.742+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:08:29.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.209 seconds
+[2025-03-25T09:09:43.554+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:09:43.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:09:43.558+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:09:43.557+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:09:43.581+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:09:43.596+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:09:43.596+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:09:43.615+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:09:43.615+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:09:43.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.101 seconds
+[2025-03-25T09:10:50.705+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:10:50.706+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:10:50.708+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:10:50.708+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:10:50.716+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:10:50.829+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:10:50.829+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:10:50.840+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:10:50.840+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:10:50.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.162 seconds
+[2025-03-25T09:11:04.047+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:11:04.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:11:04.050+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:11:04.050+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:11:04.068+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:11:04.191+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:11:04.190+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:11:04.202+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:11:04.201+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:11:04.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.179 seconds
+[2025-03-25T09:12:14.608+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:12:14.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:12:14.610+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:12:14.610+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:12:14.620+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:12:14.640+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:12:14.640+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:12:14.654+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:12:14.654+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:12:14.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.072 seconds
+[2025-03-25T09:12:34.800+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:12:34.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:12:34.804+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:12:34.803+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:12:34.823+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:12:34.933+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:12:34.932+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:12:34.943+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:12:34.943+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:12:34.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.168 seconds
+[2025-03-25T09:13:50.125+0000] {processor.py:161} INFO - Started process (PID=67) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:13:50.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:13:50.132+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:13:50.131+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:13:50.172+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:13:50.403+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:13:50.402+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:13:50.434+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:13:50.433+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:13:50.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.364 seconds
+[2025-03-25T09:14:21.261+0000] {processor.py:161} INFO - Started process (PID=127) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:14:21.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:14:21.265+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:14:21.264+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:14:21.275+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:14:21.295+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:14:21.294+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:14:21.310+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:14:21.310+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:14:21.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.078 seconds
+[2025-03-25T09:14:50.100+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:14:50.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:14:50.102+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:14:50.102+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:14:50.111+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:14:50.136+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:14:50.135+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:14:50.149+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:14:50.149+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:14:50.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.076 seconds
+[2025-03-25T09:15:35.059+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:15:35.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:15:35.061+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:15:35.061+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:15:35.068+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:15:35.085+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:15:35.085+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:15:35.096+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:15:35.096+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:15:35.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.060 seconds
+[2025-03-25T09:16:19.014+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:16:19.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:16:19.019+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:16:19.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:16:19.058+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:16:19.294+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:16:19.293+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:16:19.322+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:16:19.322+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:16:19.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.368 seconds
+[2025-03-25T09:16:49.867+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:16:49.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:16:49.873+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:16:49.873+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:16:49.888+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:16:49.928+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:16:49.927+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:16:49.957+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:16:49.956+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:17:30.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.139 seconds
+[2025-03-25T09:17:40.327+0000] {processor.py:161} INFO - Started process (PID=249) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:17:40.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:17:40.330+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:17:40.330+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:17:40.342+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:17:40.367+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:17:40.366+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:17:40.382+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:17:40.381+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:17:40.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.082 seconds
+[2025-03-25T09:18:11.182+0000] {processor.py:161} INFO - Started process (PID=306) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:18:11.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:18:11.211+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:18:11.208+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:18:11.340+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:18:11.484+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:18:11.482+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:18:11.560+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:18:11.560+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:18:11.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.463 seconds
+[2025-03-25T09:18:41.980+0000] {processor.py:161} INFO - Started process (PID=364) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:18:41.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:18:41.987+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:18:41.986+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:18:42.005+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:18:42.049+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:18:42.048+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:18:42.079+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:18:42.078+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:18:42.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.154 seconds
+[2025-03-25T09:19:35.677+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:19:35.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:19:35.680+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:19:35.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:18:55.502+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:18:55.531+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:18:55.531+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:18:55.546+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:18:55.545+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:18:55.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.091 seconds
+[2025-03-25T09:19:26.124+0000] {processor.py:161} INFO - Started process (PID=485) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:19:26.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:19:26.128+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:19:26.127+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:19:26.140+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:19:26.163+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:19:26.163+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:19:26.177+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:19:26.176+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:19:26.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.083 seconds
+[2025-03-25T09:19:30.847+0000] {processor.py:161} INFO - Started process (PID=540) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:19:30.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:19:30.852+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:19:30.852+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:19:30.871+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:19:30.903+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:19:30.903+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:19:30.929+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:19:30.928+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:19:30.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.117 seconds
+[2025-03-25T09:20:36.397+0000] {processor.py:161} INFO - Started process (PID=601) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:20:36.398+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:20:36.400+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:20:36.400+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:20:36.411+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:20:36.434+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:20:36.433+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:20:36.451+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:20:36.450+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:20:36.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.082 seconds
+[2025-03-25T09:21:16.430+0000] {processor.py:161} INFO - Started process (PID=662) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:21:16.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:21:16.435+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:21:16.434+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:21:16.448+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:21:16.475+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:21:16.475+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:21:16.492+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:21:16.492+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:21:16.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.092 seconds
+[2025-03-25T09:21:46.670+0000] {processor.py:161} INFO - Started process (PID=735) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:21:46.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:21:46.675+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:21:46.674+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:21:46.689+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:21:46.725+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:21:46.724+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:21:46.742+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:21:46.742+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:21:46.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.102 seconds
+[2025-03-25T09:22:36.360+0000] {processor.py:161} INFO - Started process (PID=790) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:22:36.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:22:36.363+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:22:36.363+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:22:36.373+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:22:36.393+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:22:36.393+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:22:36.406+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:22:36.406+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:22:36.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.074 seconds
+[2025-03-25T09:23:06.505+0000] {processor.py:161} INFO - Started process (PID=859) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:23:06.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:23:06.510+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:23:06.509+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:23:06.525+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:23:06.555+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:23:06.554+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:23:06.576+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:23:06.575+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:23:06.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.118 seconds
+[2025-03-25T09:23:11.042+0000] {processor.py:161} INFO - Started process (PID=911) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:23:11.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:23:11.046+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:23:11.045+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:23:11.058+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:23:11.084+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:23:11.084+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:23:11.101+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:23:11.101+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:23:11.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.096 seconds
+[2025-03-25T09:23:41.829+0000] {processor.py:161} INFO - Started process (PID=967) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:23:41.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:23:41.834+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:23:41.833+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:23:41.846+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:23:41.874+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:23:41.874+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:23:41.889+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:23:41.889+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:23:41.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.090 seconds
+[2025-03-25T09:24:41.204+0000] {processor.py:161} INFO - Started process (PID=1024) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:24:41.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:24:41.207+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:24:41.206+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:24:41.217+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:24:41.243+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:24:41.243+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:24:41.256+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:24:41.256+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:24:01.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.077 seconds
+[2025-03-25T09:24:31.623+0000] {processor.py:161} INFO - Started process (PID=1079) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:24:31.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:24:31.627+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:24:31.626+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:24:31.637+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:24:31.663+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:24:31.662+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:24:31.676+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:24:31.676+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:24:31.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.086 seconds
+[2025-03-25T09:24:36.291+0000] {processor.py:161} INFO - Started process (PID=1133) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:24:36.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:24:36.294+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:24:36.294+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:24:36.304+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:24:36.329+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:24:36.328+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:24:36.341+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:24:36.341+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:24:36.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.077 seconds
+[2025-03-25T09:25:46.346+0000] {processor.py:161} INFO - Started process (PID=1195) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:25:46.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:25:46.350+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:25:46.350+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:25:46.363+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:25:46.402+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:25:46.401+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:25:46.426+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:25:46.426+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:25:46.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.112 seconds
+[2025-03-25T09:26:37.057+0000] {processor.py:161} INFO - Started process (PID=1310) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:26:37.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:26:37.063+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:26:37.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:26:37.079+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:26:37.112+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:26:37.111+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:26:37.129+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:26:37.129+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:26:37.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.107 seconds
+[2025-03-25T09:26:31.542+0000] {processor.py:161} INFO - Started process (PID=1371) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:26:31.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:26:31.547+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:26:31.546+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:26:31.563+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:26:31.596+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:26:31.595+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:26:31.613+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:26:31.612+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:26:31.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.111 seconds
+[2025-03-25T09:26:36.452+0000] {processor.py:161} INFO - Started process (PID=1424) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:26:36.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:26:36.457+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:26:36.456+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:26:36.473+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:26:36.503+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:26:36.502+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:26:36.519+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:26:36.519+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:26:36.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.105 seconds
+[2025-03-25T09:27:01.552+0000] {processor.py:161} INFO - Started process (PID=1483) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:27:01.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:27:01.557+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:27:01.557+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:27:01.569+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:27:01.600+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:27:01.599+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:27:01.617+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:27:01.616+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:27:01.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.097 seconds
+[2025-03-25T09:27:32.084+0000] {processor.py:161} INFO - Started process (PID=1541) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:27:32.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:27:32.088+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:27:32.087+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:27:32.101+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:27:32.131+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:27:32.130+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:27:32.147+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:27:32.147+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:27:32.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.100 seconds
+[2025-03-25T09:27:36.845+0000] {processor.py:161} INFO - Started process (PID=1596) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:27:36.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:27:36.849+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:27:36.849+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:27:36.865+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:27:36.897+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:27:36.897+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:27:36.918+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:27:36.918+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:27:36.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.108 seconds
+[2025-03-25T09:28:07.381+0000] {processor.py:161} INFO - Started process (PID=1651) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:28:07.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:28:07.384+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:28:07.384+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:28:07.394+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:28:07.416+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:28:07.416+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:28:07.432+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:28:07.431+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:28:07.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.080 seconds
+[2025-03-25T09:28:38.249+0000] {processor.py:161} INFO - Started process (PID=1705) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:28:38.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:28:38.254+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:28:38.253+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:28:38.266+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:28:38.291+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:28:38.290+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:28:38.307+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:28:38.307+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:28:38.332+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.088 seconds
+[2025-03-25T09:29:21.784+0000] {processor.py:161} INFO - Started process (PID=1741) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:29:21.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:29:21.787+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:29:21.787+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:29:21.796+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:29:21.819+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:29:21.818+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:29:21.831+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:29:21.830+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:29:21.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.073 seconds
+[2025-03-25T09:29:16.809+0000] {processor.py:161} INFO - Started process (PID=1855) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:29:16.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:29:16.813+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:29:16.813+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:29:16.825+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:29:16.851+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:29:16.850+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:29:16.867+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:29:16.867+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:29:16.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.087 seconds
+[2025-03-25T09:29:47.414+0000] {processor.py:161} INFO - Started process (PID=1916) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:29:47.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:29:47.417+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:29:47.417+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:29:47.427+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:29:47.448+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:29:47.448+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:29:47.461+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:29:47.460+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:29:47.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.073 seconds
+[2025-03-25T09:30:06.952+0000] {processor.py:161} INFO - Started process (PID=1971) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:30:06.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:30:06.956+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:30:06.955+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:30:06.966+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:30:06.988+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:30:06.987+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:30:07.000+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:30:07.000+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:30:07.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.072 seconds
+[2025-03-25T09:30:11.680+0000] {processor.py:161} INFO - Started process (PID=2024) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:30:11.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:30:11.684+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:30:11.684+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:30:11.694+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:30:11.718+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:30:11.717+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:30:11.732+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:30:11.732+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:30:11.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.077 seconds
+[2025-03-25T09:30:42.135+0000] {processor.py:161} INFO - Started process (PID=2080) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:30:42.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:30:42.139+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:30:42.139+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:30:42.149+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:30:42.172+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:30:42.172+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:30:42.185+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:30:42.185+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:30:42.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.078 seconds
+[2025-03-25T09:31:12.374+0000] {processor.py:161} INFO - Started process (PID=2136) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:31:12.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:31:12.379+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:31:12.378+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:31:12.394+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:31:12.427+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:31:12.426+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:31:12.445+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:31:12.445+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:31:12.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.110 seconds
+[2025-03-25T09:31:21.962+0000] {processor.py:161} INFO - Started process (PID=2199) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:31:21.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:31:21.966+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:31:21.965+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:31:21.974+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:31:21.995+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:31:21.994+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:31:22.007+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:31:22.007+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:31:22.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.068 seconds
+[2025-03-25T09:32:11.867+0000] {processor.py:161} INFO - Started process (PID=2252) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:11.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:32:11.871+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:11.870+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:11.880+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:11.903+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:11.902+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:32:11.916+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:11.915+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:32:11.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.076 seconds
+[2025-03-25T09:32:02.179+0000] {processor.py:161} INFO - Started process (PID=2405) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:02.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:32:02.182+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:02.182+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:02.193+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:02.218+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:02.218+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:32:02.233+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:02.232+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:32:02.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.080 seconds
+[2025-03-25T09:32:07.121+0000] {processor.py:161} INFO - Started process (PID=2460) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:07.122+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:32:07.126+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:07.125+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:07.140+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:07.177+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:07.176+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:32:07.201+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:07.200+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:32:07.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.119 seconds
+[2025-03-25T09:32:52.098+0000] {processor.py:161} INFO - Started process (PID=2515) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:52.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:32:52.104+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:52.103+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:52.119+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:32:11.959+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:11.958+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:32:11.980+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:32:11.979+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:32:12.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.106 seconds
+[2025-03-25T09:33:16.770+0000] {processor.py:161} INFO - Started process (PID=2571) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:16.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:33:16.774+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:16.774+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:16.786+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:16.813+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:16.812+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:33:16.827+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:16.827+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:33:16.857+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.091 seconds
+[2025-03-25T09:33:22.373+0000] {processor.py:161} INFO - Started process (PID=2684) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:22.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:33:22.377+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:22.376+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:22.392+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:22.417+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:22.417+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:33:22.437+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:22.437+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:33:22.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.099 seconds
+[2025-03-25T09:33:53.316+0000] {processor.py:161} INFO - Started process (PID=2745) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:53.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:33:53.319+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:53.319+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:53.329+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:53.349+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:53.348+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:33:53.361+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:53.361+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:33:53.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.073 seconds
+[2025-03-25T09:33:57.304+0000] {processor.py:161} INFO - Started process (PID=2800) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:57.305+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:33:57.307+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:57.307+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:57.318+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:33:57.340+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:57.340+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:33:57.353+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:33:57.353+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:33:57.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.075 seconds
+[2025-03-25T09:34:27.813+0000] {processor.py:161} INFO - Started process (PID=2854) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:34:27.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:34:27.816+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:34:27.816+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:34:27.828+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:34:27.851+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:34:27.851+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:34:27.864+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:34:27.864+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:34:27.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.077 seconds
+[2025-03-25T09:34:32.248+0000] {processor.py:161} INFO - Started process (PID=2902) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:34:32.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:34:32.252+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:34:32.251+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:34:32.265+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:34:32.293+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:34:32.290+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:34:32.314+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:34:32.314+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:34:32.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.103 seconds
+[2025-03-25T09:34:37.077+0000] {processor.py:161} INFO - Started process (PID=2954) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:34:37.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:34:37.082+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:34:37.081+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:34:37.096+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:34:37.119+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:34:37.118+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:34:37.134+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:34:37.134+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:34:37.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.087 seconds
+[2025-03-25T09:35:07.866+0000] {processor.py:161} INFO - Started process (PID=3012) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:35:07.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:35:07.870+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:35:07.870+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:35:07.881+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:35:07.906+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:35:07.906+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:35:07.922+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:35:07.922+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:35:07.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.084 seconds
+[2025-03-25T09:35:17.467+0000] {processor.py:161} INFO - Started process (PID=3073) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:35:17.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:35:17.470+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:35:17.470+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:35:17.480+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:35:17.505+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:35:17.504+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:35:17.520+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:35:17.520+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:35:17.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.080 seconds
+[2025-03-25T09:35:22.137+0000] {processor.py:161} INFO - Started process (PID=3128) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:35:22.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:35:22.141+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:35:22.140+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:35:22.152+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:35:22.176+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:35:22.176+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:35:22.193+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:35:22.192+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:35:22.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.083 seconds
+[2025-03-25T09:36:12.161+0000] {processor.py:161} INFO - Started process (PID=3179) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:36:12.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:36:12.166+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:36:12.165+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:36:12.181+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:36:12.213+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:36:12.212+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:36:12.231+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:36:12.230+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:36:12.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.105 seconds
+[2025-03-25T09:36:42.606+0000] {processor.py:161} INFO - Started process (PID=3287) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:36:42.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:36:42.609+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:36:42.609+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:36:42.619+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:36:42.641+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:36:42.640+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:36:42.654+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:36:42.653+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:36:42.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.076 seconds
+[2025-03-25T09:37:13.312+0000] {processor.py:161} INFO - Started process (PID=3354) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:37:13.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:37:13.317+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:37:13.316+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:37:13.329+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:37:13.353+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:37:13.352+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:37:13.370+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:37:13.370+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:37:13.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.278 seconds
+[2025-03-25T09:37:44.540+0000] {processor.py:161} INFO - Started process (PID=3408) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:37:44.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:37:44.543+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:37:44.543+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:37:44.553+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:37:44.576+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:37:44.576+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:37:44.591+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:37:44.591+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:37:44.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.077 seconds
+[2025-03-25T09:38:15.725+0000] {processor.py:161} INFO - Started process (PID=3450) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:38:15.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:38:15.731+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:38:15.730+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:38:15.751+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:38:15.789+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:38:15.788+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:38:16.078+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:38:16.078+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:38:16.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.402 seconds
+[2025-03-25T09:38:42.633+0000] {processor.py:161} INFO - Started process (PID=3487) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:38:42.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:38:42.636+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:38:42.636+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:38:42.648+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:38:42.671+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:38:42.670+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:38:42.685+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:38:42.684+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:38:42.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.080 seconds
+[2025-03-25T09:39:13.286+0000] {processor.py:161} INFO - Started process (PID=3543) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:13.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:39:13.289+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:13.289+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:13.299+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:13.322+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:13.322+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:39:13.335+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:13.335+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:39:13.358+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.076 seconds
+[2025-03-25T09:39:18.341+0000] {processor.py:161} INFO - Started process (PID=3580) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:18.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:39:18.345+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:18.345+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:18.356+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:18.380+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:18.379+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:39:18.401+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:18.400+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:39:18.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.242 seconds
+[2025-03-25T09:40:07.648+0000] {processor.py:161} INFO - Started process (PID=3632) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:40:07.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:40:07.651+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:40:07.650+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:40:07.661+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:27.592+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:27.592+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:39:27.607+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:27.606+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:39:27.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.084 seconds
+[2025-03-25T09:39:58.264+0000] {processor.py:161} INFO - Started process (PID=3685) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:58.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:39:58.268+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:58.268+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:58.280+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:39:58.306+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:58.306+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:39:58.323+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:39:58.323+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:39:58.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.095 seconds
+[2025-03-25T09:40:28.968+0000] {processor.py:161} INFO - Started process (PID=3740) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:40:28.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:40:28.971+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:40:28.971+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:40:28.982+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:40:29.016+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:40:29.015+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:40:29.035+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:40:29.034+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:40:29.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.102 seconds
+[2025-03-25T09:40:59.426+0000] {processor.py:161} INFO - Started process (PID=3801) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:40:59.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:40:59.432+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:40:59.432+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:40:59.456+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:40:59.509+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:40:59.507+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:40:59.541+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:40:59.541+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:40:59.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.167 seconds
+[2025-03-25T09:41:03.046+0000] {processor.py:161} INFO - Started process (PID=3840) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:41:03.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:41:03.050+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:41:03.049+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:41:03.063+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:41:03.090+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:41:03.089+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:41:03.108+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:41:03.108+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:41:03.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.093 seconds
+[2025-03-25T09:41:33.716+0000] {processor.py:161} INFO - Started process (PID=3898) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:41:33.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:41:33.720+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:41:33.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:41:33.732+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:41:33.759+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:41:33.759+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:41:33.780+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:41:33.780+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:41:33.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.093 seconds
+[2025-03-25T09:41:47.862+0000] {processor.py:161} INFO - Started process (PID=3950) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:41:47.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:41:47.865+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:41:47.865+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:41:47.876+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:41:47.901+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:41:47.901+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:41:47.915+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:41:47.914+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:41:47.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.080 seconds
+[2025-03-25T09:42:18.569+0000] {processor.py:161} INFO - Started process (PID=4014) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:42:18.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:42:18.573+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:42:18.572+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:42:18.584+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:42:18.610+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:42:18.609+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:42:18.622+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:42:18.622+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:42:18.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.084 seconds
+[2025-03-25T09:42:49.514+0000] {processor.py:161} INFO - Started process (PID=4072) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:42:49.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:42:49.518+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:42:49.518+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:42:49.531+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:42:49.552+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:42:49.551+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:42:49.564+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:42:49.563+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:42:49.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.075 seconds
+[2025-03-25T09:42:58.042+0000] {processor.py:161} INFO - Started process (PID=4125) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:42:58.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:42:58.045+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:42:58.045+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:42:58.059+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:42:58.086+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:42:58.085+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:42:58.103+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:42:58.103+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:42:58.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.096 seconds
+[2025-03-25T09:43:03.103+0000] {processor.py:161} INFO - Started process (PID=4180) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:03.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:43:03.108+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:03.107+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:03.124+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:03.153+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:03.153+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:43:03.174+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:03.174+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:43:03.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.102 seconds
+[2025-03-25T09:43:08.039+0000] {processor.py:161} INFO - Started process (PID=4235) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:08.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:43:08.044+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:08.043+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:08.059+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:08.082+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:08.082+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:43:08.095+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:08.095+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:43:08.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.081 seconds
+[2025-03-25T09:43:38.645+0000] {processor.py:161} INFO - Started process (PID=4294) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:38.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:43:38.649+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:38.649+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:38.660+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:38.683+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:38.683+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:43:38.698+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:38.697+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:43:38.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.081 seconds
+[2025-03-25T09:43:43.153+0000] {processor.py:161} INFO - Started process (PID=4349) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:43.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:43:43.157+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:43.156+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:43.171+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:43:43.197+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:43.197+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:43:43.215+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:43:43.215+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:43:43.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.092 seconds
+[2025-03-25T09:44:13.733+0000] {processor.py:161} INFO - Started process (PID=4410) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:13.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:44:13.737+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:13.737+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:13.749+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:13.774+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:13.773+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:44:13.809+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:13.808+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:44:13.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.210 seconds
+[2025-03-25T09:44:18.224+0000] {processor.py:161} INFO - Started process (PID=4465) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:18.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:44:18.227+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:18.227+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:18.238+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:18.261+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:18.260+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:44:18.276+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:18.276+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:44:18.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.082 seconds
+[2025-03-25T09:44:23.329+0000] {processor.py:161} INFO - Started process (PID=4520) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:23.330+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:44:23.332+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:23.332+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:23.344+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:23.372+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:23.371+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:44:23.392+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:23.392+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:44:23.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.091 seconds
+[2025-03-25T09:44:53.485+0000] {processor.py:161} INFO - Started process (PID=4575) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:53.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:44:53.490+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:53.490+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:53.509+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:44:53.538+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:53.538+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:44:53.558+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:44:53.557+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:44:53.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.105 seconds
+[2025-03-25T09:45:39.971+0000] {processor.py:161} INFO - Started process (PID=4624) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:45:39.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:45:39.976+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:45:39.975+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:45:39.990+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:45:40.025+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:45:40.025+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:45:40.047+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:45:40.046+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:45:40.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.120 seconds
+[2025-03-25T09:46:03.429+0000] {processor.py:161} INFO - Started process (PID=4675) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:46:03.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:46:03.434+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:46:03.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:46:03.447+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:46:03.476+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:46:03.475+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:46:03.492+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:46:03.492+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:46:03.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.093 seconds
+[2025-03-25T09:46:34.109+0000] {processor.py:161} INFO - Started process (PID=4734) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:46:34.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:46:34.116+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:46:34.115+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:46:34.137+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:46:34.175+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:46:34.174+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:46:34.204+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:46:34.204+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:46:34.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.142 seconds
+[2025-03-25T09:46:38.545+0000] {processor.py:161} INFO - Started process (PID=4789) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:46:38.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:46:38.550+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:46:38.550+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:46:38.565+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:46:38.597+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:46:38.596+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:46:38.620+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:46:38.619+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:46:38.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.116 seconds
+[2025-03-25T09:47:08.975+0000] {processor.py:161} INFO - Started process (PID=4849) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:47:08.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:47:08.979+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:47:08.978+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:47:08.989+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:47:09.012+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:47:09.011+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:47:09.024+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:47:09.024+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:47:09.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.074 seconds
+[2025-03-25T09:47:13.524+0000] {processor.py:161} INFO - Started process (PID=4895) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:47:13.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:47:13.527+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:47:13.527+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:47:13.536+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:47:13.556+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:47:13.556+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:47:13.568+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:47:13.568+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:47:13.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.066 seconds
+[2025-03-25T09:47:43.908+0000] {processor.py:161} INFO - Started process (PID=4952) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:47:43.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:47:43.912+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:47:43.911+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:47:43.922+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:47:43.944+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:47:43.943+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:47:43.958+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:47:43.958+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:47:43.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.077 seconds
+[2025-03-25T09:48:14.238+0000] {processor.py:161} INFO - Started process (PID=5010) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:48:14.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:48:14.243+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:48:14.242+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:48:14.258+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:48:14.290+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:48:14.289+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:48:14.311+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:48:14.310+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:48:14.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.108 seconds
+[2025-03-25T09:48:18.676+0000] {processor.py:161} INFO - Started process (PID=5059) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:48:18.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:48:18.680+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:48:18.679+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:48:18.694+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:48:18.723+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:48:18.722+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:48:18.738+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:48:18.738+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:48:18.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.096 seconds
+[2025-03-25T09:48:49.417+0000] {processor.py:161} INFO - Started process (PID=5124) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:48:49.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:48:49.421+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:48:49.420+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:48:49.431+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:48:49.465+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:48:49.464+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:48:49.480+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:48:49.479+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:48:49.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.094 seconds
+[2025-03-25T09:49:20.393+0000] {processor.py:161} INFO - Started process (PID=5182) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:20.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:49:20.397+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:20.397+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:20.411+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:20.443+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:20.440+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:49:20.463+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:20.463+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:49:20.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.103 seconds
+[2025-03-25T09:49:28.968+0000] {processor.py:161} INFO - Started process (PID=5232) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:28.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:49:28.971+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:28.971+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:28.980+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:29.003+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:29.002+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:49:29.019+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:29.019+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:49:29.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.082 seconds
+[2025-03-25T09:49:33.799+0000] {processor.py:161} INFO - Started process (PID=5285) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:33.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:49:33.803+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:33.803+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:33.817+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:33.846+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:33.845+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:49:33.864+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:33.864+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:49:33.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.100 seconds
+[2025-03-25T09:49:38.846+0000] {processor.py:161} INFO - Started process (PID=5333) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:38.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:49:38.850+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:38.850+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:38.864+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:49:38.894+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:38.893+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:49:38.913+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:49:38.912+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:49:38.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.099 seconds
+[2025-03-25T09:50:09.059+0000] {processor.py:161} INFO - Started process (PID=5383) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:50:09.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:50:09.064+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:50:09.063+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:50:09.074+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:50:09.100+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:50:09.100+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:50:09.116+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:50:09.116+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:50:09.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.092 seconds
+[2025-03-25T09:50:39.607+0000] {processor.py:161} INFO - Started process (PID=5435) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:50:39.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:50:39.611+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:50:39.611+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:50:39.622+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:50:39.646+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:50:39.645+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:50:39.659+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:50:39.659+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:50:39.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.081 seconds
+[2025-03-25T09:50:48.975+0000] {processor.py:161} INFO - Started process (PID=5486) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:50:48.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:50:48.979+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:50:48.978+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:50:48.990+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:50:49.017+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:50:49.016+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:50:49.037+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:50:49.037+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:50:49.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.095 seconds
+[2025-03-25T09:51:19.399+0000] {processor.py:161} INFO - Started process (PID=5544) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:51:19.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:51:19.403+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:51:19.403+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:51:19.415+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:51:19.443+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:51:19.442+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:51:19.460+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:51:19.460+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:51:19.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.095 seconds
+[2025-03-25T09:51:24.038+0000] {processor.py:161} INFO - Started process (PID=5602) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:51:24.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:51:24.043+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:51:24.042+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:51:24.057+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:51:24.088+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:51:24.087+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:51:24.109+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:51:24.108+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:51:24.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.111 seconds
+[2025-03-25T09:51:54.795+0000] {processor.py:161} INFO - Started process (PID=5663) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:51:54.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:51:54.800+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:51:54.800+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:51:54.815+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:51:54.850+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:51:54.849+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:51:54.874+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:51:54.874+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:51:54.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.120 seconds
+[2025-03-25T09:52:25.577+0000] {processor.py:161} INFO - Started process (PID=5724) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:52:25.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:52:25.581+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:52:25.581+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:52:25.593+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:52:25.617+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:52:25.617+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:52:25.635+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:52:25.634+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:52:25.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.091 seconds
+[2025-03-25T09:52:29.248+0000] {processor.py:161} INFO - Started process (PID=5762) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:52:29.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:52:29.254+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:52:29.253+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:52:29.271+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:52:29.312+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:52:29.311+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:52:29.338+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:52:29.338+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:52:29.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.130 seconds
+[2025-03-25T09:52:34.058+0000] {processor.py:161} INFO - Started process (PID=5814) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:52:34.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:52:34.062+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:52:34.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:52:34.076+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:52:34.117+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:52:34.116+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:52:34.150+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:52:34.150+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:52:34.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.144 seconds
+[2025-03-25T09:53:04.480+0000] {processor.py:161} INFO - Started process (PID=5869) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:04.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:53:04.484+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:04.484+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:04.498+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:04.530+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:04.529+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:53:04.547+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:04.547+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:53:04.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.102 seconds
+[2025-03-25T09:53:09.183+0000] {processor.py:161} INFO - Started process (PID=5912) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:09.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:53:09.187+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:09.187+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:09.203+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:09.241+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:09.240+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:53:09.264+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:09.264+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:53:09.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.120 seconds
+[2025-03-25T09:53:13.981+0000] {processor.py:161} INFO - Started process (PID=5963) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:13.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:53:13.987+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:13.986+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:14.006+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:14.037+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:14.036+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:53:14.057+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:14.057+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:53:14.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.122 seconds
+[2025-03-25T09:53:44.848+0000] {processor.py:161} INFO - Started process (PID=6019) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:44.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:53:44.852+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:44.852+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:44.864+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:44.892+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:44.891+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:53:44.909+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:44.909+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:53:44.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.092 seconds
+[2025-03-25T09:53:49.244+0000] {processor.py:161} INFO - Started process (PID=6072) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:49.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:53:49.249+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:49.248+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:49.263+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:53:49.291+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:49.290+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:53:49.308+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:53:49.308+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:53:49.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.095 seconds
+[2025-03-25T09:54:19.941+0000] {processor.py:161} INFO - Started process (PID=6133) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:54:19.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:54:19.945+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:54:19.945+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:54:19.957+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:54:19.981+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:54:19.980+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:54:19.993+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:54:19.993+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:54:20.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.077 seconds
+[2025-03-25T09:54:24.207+0000] {processor.py:161} INFO - Started process (PID=6182) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:54:24.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:54:24.210+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:54:24.210+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:54:24.220+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:54:24.250+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:54:24.250+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:54:24.276+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:54:24.275+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:54:24.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.107 seconds
+[2025-03-25T09:54:54.601+0000] {processor.py:161} INFO - Started process (PID=6243) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:54:54.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:54:54.604+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:54:54.604+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:54:54.616+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:54:54.641+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:54:54.641+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:54:54.656+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:54:54.656+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:54:54.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.083 seconds
+[2025-03-25T09:55:25.143+0000] {processor.py:161} INFO - Started process (PID=6304) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:55:25.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:55:25.147+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:55:25.147+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:55:25.160+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:55:25.185+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:55:25.185+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:55:25.203+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:55:25.203+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:55:25.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.090 seconds
+[2025-03-25T09:55:29.388+0000] {processor.py:161} INFO - Started process (PID=6352) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:55:29.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:55:29.392+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:55:29.391+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:55:29.406+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:55:29.431+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:55:29.431+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:55:29.453+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:55:29.452+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:55:29.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.100 seconds
+[2025-03-25T09:56:40.240+0000] {processor.py:161} INFO - Started process (PID=6412) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:56:40.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:56:40.244+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:56:40.244+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:56:40.255+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:56:40.281+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:56:40.281+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:56:40.299+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:56:40.299+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:56:40.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.088 seconds
+[2025-03-25T09:57:11.131+0000] {processor.py:161} INFO - Started process (PID=6480) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:57:11.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:57:11.138+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:57:11.137+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:57:11.160+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:57:11.196+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:57:11.195+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:57:11.210+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:57:11.210+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:57:11.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.122 seconds
+[2025-03-25T09:57:41.313+0000] {processor.py:161} INFO - Started process (PID=6541) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:57:41.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:57:41.316+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:57:41.316+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:57:41.327+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:57:41.350+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:57:41.349+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:57:41.367+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:57:41.366+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:57:41.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.090 seconds
+[2025-03-25T09:57:44.547+0000] {processor.py:161} INFO - Started process (PID=6584) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:57:44.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:57:44.550+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:57:44.550+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:57:44.563+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:57:44.589+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:57:44.589+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:57:44.606+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:57:44.606+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:57:44.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.097 seconds
+[2025-03-25T09:58:44.444+0000] {processor.py:161} INFO - Started process (PID=6638) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:58:44.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:58:44.449+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:58:44.449+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:58:44.463+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:58:44.498+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:58:44.497+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:58:44.521+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:58:44.520+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:58:04.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.121 seconds
+[2025-03-25T09:58:49.477+0000] {processor.py:161} INFO - Started process (PID=6686) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:58:49.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:58:49.480+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:58:49.480+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:58:49.490+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:58:49.513+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:58:49.512+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:58:49.525+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:58:49.525+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:58:49.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.076 seconds
+[2025-03-25T09:58:39.934+0000] {processor.py:161} INFO - Started process (PID=6843) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:58:39.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:58:39.941+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:58:39.940+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:58:39.956+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:58:39.983+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:58:39.982+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:58:40.005+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:58:40.005+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:58:40.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.108 seconds
+[2025-03-25T09:59:10.357+0000] {processor.py:161} INFO - Started process (PID=6902) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:59:10.359+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:59:10.361+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:59:10.361+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:59:10.375+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:59:10.406+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:59:10.405+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:59:10.427+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:59:10.427+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:59:10.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.108 seconds
+[2025-03-25T09:59:24.639+0000] {processor.py:161} INFO - Started process (PID=6963) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:59:24.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T09:59:24.645+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:59:24.644+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:59:24.667+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T09:59:24.702+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:59:24.701+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T09:59:24.722+0000] {logging_mixin.py:188} INFO - [2025-03-25T09:59:24.722+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T09:59:24.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.123 seconds
+[2025-03-25T10:00:09.578+0000] {processor.py:161} INFO - Started process (PID=7013) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:09.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:00:09.581+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:09.581+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:09.591+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:09.612+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:09.612+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:00:09.624+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:09.624+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:00:09.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.071 seconds
+[2025-03-25T10:00:40.506+0000] {processor.py:161} INFO - Started process (PID=7208) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:40.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:00:40.513+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:40.512+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:40.529+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:40.560+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:40.559+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:00:40.577+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:40.577+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:00:40.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.115 seconds
+[2025-03-25T10:00:49.944+0000] {processor.py:161} INFO - Started process (PID=7259) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:49.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:00:49.952+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:49.951+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:49.976+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:50.020+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:50.019+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:00:50.045+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:50.044+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:00:50.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.184 seconds
+[2025-03-25T10:00:55.014+0000] {processor.py:161} INFO - Started process (PID=7319) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:55.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:00:55.018+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:55.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:55.035+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:00:55.076+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:55.075+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:00:55.108+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:00:55.108+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:00:55.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.145 seconds
+[2025-03-25T10:01:25.524+0000] {processor.py:161} INFO - Started process (PID=7375) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:01:25.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:01:25.528+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:01:25.528+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:01:25.540+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:01:25.561+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:01:25.561+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:01:25.576+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:01:25.575+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:01:25.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.084 seconds
+[2025-03-25T10:01:30.049+0000] {processor.py:161} INFO - Started process (PID=7417) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:01:30.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:01:30.053+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:01:30.052+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:01:30.067+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:01:30.095+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:01:30.094+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:01:30.113+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:01:30.113+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:01:30.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.100 seconds
+[2025-03-25T10:02:00.528+0000] {processor.py:161} INFO - Started process (PID=7476) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:00.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:02:00.533+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:00.533+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:00.548+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:00.578+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:00.577+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:02:00.602+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:00.601+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:02:00.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.117 seconds
+[2025-03-25T10:02:31.006+0000] {processor.py:161} INFO - Started process (PID=7535) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:31.008+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:02:31.011+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:31.010+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:31.028+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:31.062+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:31.061+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:02:31.082+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:31.081+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:02:31.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.110 seconds
+[2025-03-25T10:02:35.245+0000] {processor.py:161} INFO - Started process (PID=7583) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:35.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:02:35.250+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:35.250+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:35.267+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:35.302+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:35.302+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:02:35.325+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:35.324+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:02:35.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.120 seconds
+[2025-03-25T10:03:20.156+0000] {processor.py:161} INFO - Started process (PID=7634) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:03:20.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:03:20.162+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:03:20.161+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:39.999+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:02:40.040+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:40.039+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:02:40.071+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:02:40.070+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:02:40.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.153 seconds
+[2025-03-25T10:03:10.574+0000] {processor.py:161} INFO - Started process (PID=7686) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:03:10.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:03:10.580+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:03:10.579+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:03:10.602+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:03:10.650+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:03:10.649+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:03:10.681+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:03:10.680+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:03:10.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.165 seconds
+[2025-03-25T10:03:56.469+0000] {processor.py:161} INFO - Started process (PID=7724) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:03:56.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:03:56.474+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:03:56.473+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:03:56.488+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:03:56.520+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:03:56.519+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:03:56.539+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:03:56.539+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:03:56.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.106 seconds
+[2025-03-25T10:04:51.005+0000] {processor.py:161} INFO - Started process (PID=7781) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:04:51.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:04:51.009+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:04:51.008+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:04:51.021+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:04:51.049+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:04:51.048+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:04:51.064+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:04:51.064+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:04:51.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.090 seconds
+[2025-03-25T10:05:00.173+0000] {processor.py:161} INFO - Started process (PID=7848) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:05:00.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:05:00.178+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:05:00.177+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:05:00.188+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:05:00.213+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:05:00.212+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:05:00.227+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:05:00.227+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:05:00.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.089 seconds
+[2025-03-25T10:05:30.566+0000] {processor.py:161} INFO - Started process (PID=7905) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:05:30.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:05:30.570+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:05:30.570+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:05:30.585+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:05:30.617+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:05:30.616+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:05:30.632+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:05:30.632+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:05:30.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.101 seconds
+[2025-03-25T10:05:35.334+0000] {processor.py:161} INFO - Started process (PID=7955) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:05:35.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:05:35.339+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:05:35.339+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:05:35.360+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:05:35.397+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:05:35.396+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:05:35.418+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:05:35.418+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:05:35.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.120 seconds
+[2025-03-25T10:06:05.670+0000] {processor.py:161} INFO - Started process (PID=8012) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:06:05.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:06:05.674+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:06:05.673+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:06:05.688+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:06:05.721+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:06:05.721+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:06:05.739+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:06:05.738+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:06:05.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.100 seconds
+[2025-03-25T10:06:35.897+0000] {processor.py:161} INFO - Started process (PID=8069) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:06:35.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:06:35.900+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:06:35.900+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:06:35.911+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:06:35.935+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:06:35.934+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:06:35.948+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:06:35.947+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:06:35.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.081 seconds
+[2025-03-25T10:07:06.201+0000] {processor.py:161} INFO - Started process (PID=8130) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:06.202+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:07:06.205+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:06.205+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:06.215+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:06.241+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:06.240+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:07:06.262+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:06.262+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:07:06.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.095 seconds
+[2025-03-25T10:07:10.629+0000] {processor.py:161} INFO - Started process (PID=8173) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:10.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:07:10.634+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:10.634+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:10.651+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:10.688+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:10.688+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:07:10.712+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:10.711+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:07:10.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.121 seconds
+[2025-03-25T10:07:41.417+0000] {processor.py:161} INFO - Started process (PID=8229) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:41.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:07:41.420+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:41.420+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:41.432+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:41.454+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:41.453+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:07:41.467+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:41.467+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:07:41.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.077 seconds
+[2025-03-25T10:07:45.623+0000] {processor.py:161} INFO - Started process (PID=8280) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:45.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:07:45.628+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:45.627+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:45.642+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:45.673+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:45.672+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:07:45.694+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:45.694+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:07:45.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.109 seconds
+[2025-03-25T10:07:50.852+0000] {processor.py:161} INFO - Started process (PID=8330) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:50.853+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:07:50.856+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:50.856+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:50.870+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:07:50.897+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:50.897+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:07:50.915+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:07:50.915+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:07:50.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.098 seconds
+[2025-03-25T10:08:21.167+0000] {processor.py:161} INFO - Started process (PID=8386) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:08:21.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:08:21.171+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:08:21.170+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:08:21.186+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:08:21.217+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:08:21.217+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:08:21.234+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:08:21.233+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:08:21.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.108 seconds
+[2025-03-25T10:08:52.173+0000] {processor.py:161} INFO - Started process (PID=8448) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:08:52.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:08:52.178+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:08:52.177+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:08:52.191+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:08:52.220+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:08:52.219+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:08:52.238+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:08:52.238+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:08:52.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.098 seconds
+[2025-03-25T10:08:55.839+0000] {processor.py:161} INFO - Started process (PID=8491) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:08:55.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:08:55.843+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:08:55.842+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:08:55.859+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:08:55.893+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:08:55.893+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:08:55.915+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:08:55.915+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:08:55.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.110 seconds
+[2025-03-25T10:09:26.651+0000] {processor.py:161} INFO - Started process (PID=8548) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:09:26.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:09:26.655+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:09:26.655+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:09:26.666+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:09:26.687+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:09:26.686+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:09:26.700+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:09:26.699+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:09:26.721+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.073 seconds
+[2025-03-25T10:09:57.218+0000] {processor.py:161} INFO - Started process (PID=8606) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:09:57.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:09:57.223+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:09:57.222+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:09:57.237+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:09:57.263+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:09:57.263+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:09:57.279+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:09:57.279+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:09:57.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.092 seconds
+[2025-03-25T10:10:10.953+0000] {processor.py:161} INFO - Started process (PID=8661) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:10:10.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:10:10.956+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:10:10.956+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:10:10.967+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:10:10.989+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:10:10.988+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:10:11.001+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:10:11.001+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:10:11.026+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.076 seconds
+[2025-03-25T10:10:15.812+0000] {processor.py:161} INFO - Started process (PID=8716) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:10:15.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:10:15.815+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:10:15.815+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:10:15.827+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:10:15.848+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:10:15.848+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:10:15.861+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:10:15.861+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:10:15.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.078 seconds
+[2025-03-25T10:11:05.718+0000] {processor.py:161} INFO - Started process (PID=8774) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:11:05.719+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:11:05.722+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:11:05.721+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:11:05.735+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:11:05.761+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:11:05.761+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:10:25.715+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:10:25.715+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:10:25.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.099 seconds
+[2025-03-25T10:11:10.745+0000] {processor.py:161} INFO - Started process (PID=8824) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:11:10.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:11:10.753+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:11:10.753+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:11:10.771+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:10:30.758+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:10:30.757+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:10:30.780+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:10:30.780+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:10:30.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.136 seconds
+[2025-03-25T10:11:01.134+0000] {processor.py:161} INFO - Started process (PID=8880) to work on /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:11:01.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_csv_to_bq.py for tasks to queue
+[2025-03-25T10:11:01.140+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:11:01.140+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:11:01.152+0000] {processor.py:840} INFO - DAG(s) 'load_csv_to_bq' retrieved from /opt/airflow/dags/load_csv_to_bq.py
+[2025-03-25T10:11:01.180+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:11:01.179+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-03-25T10:11:01.199+0000] {logging_mixin.py:188} INFO - [2025-03-25T10:11:01.198+0000] {dag.py:3834} INFO - Setting next_dagrun for load_csv_to_bq to None, run_after=None
+[2025-03-25T10:11:01.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_csv_to_bq.py took 0.113 seconds
