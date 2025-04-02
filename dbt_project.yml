@@ -1,0 +1,12 @@
+name: 'dbt_project'  # Name of your DBT project
+version: '1.0.0'
+
+profile: 'dbt_project'  # MUST match profiles.yml
+
+config-version: 2
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
