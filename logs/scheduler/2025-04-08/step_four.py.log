@@ -1,0 +1,49 @@
+[2025-04-08T10:10:41.304+0000] {processor.py:161} INFO - Started process (PID=63) to work on /opt/airflow/dags/step_four.py
+[2025-04-08T10:10:41.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/step_four.py for tasks to queue
+[2025-04-08T10:10:41.310+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:10:41.309+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/step_four.py
+[2025-04-08T10:10:41.329+0000] {processor.py:840} INFO - DAG(s) 'clean_and_move_to_final_table' retrieved from /opt/airflow/dags/step_four.py
+[2025-04-08T10:10:41.564+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:10:41.563+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:10:41.584+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:10:41.584+0000] {dag.py:3834} INFO - Setting next_dagrun for clean_and_move_to_final_table to None, run_after=None
+[2025-04-08T10:10:41.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/step_four.py took 0.330 seconds
+[2025-04-08T10:11:11.884+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/step_four.py
+[2025-04-08T10:11:11.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/step_four.py for tasks to queue
+[2025-04-08T10:11:11.887+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:11.887+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/step_four.py
+[2025-04-08T10:11:11.894+0000] {processor.py:840} INFO - DAG(s) 'clean_and_move_to_final_table' retrieved from /opt/airflow/dags/step_four.py
+[2025-04-08T10:11:11.912+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:11.912+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:11:11.923+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:11.923+0000] {dag.py:3834} INFO - Setting next_dagrun for clean_and_move_to_final_table to None, run_after=None
+[2025-04-08T10:11:11.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/step_four.py took 0.065 seconds
+[2025-04-08T10:11:42.774+0000] {processor.py:161} INFO - Started process (PID=193) to work on /opt/airflow/dags/step_four.py
+[2025-04-08T10:11:42.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/step_four.py for tasks to queue
+[2025-04-08T10:11:42.777+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:42.777+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/step_four.py
+[2025-04-08T10:11:42.783+0000] {processor.py:840} INFO - DAG(s) 'clean_and_move_to_final_table' retrieved from /opt/airflow/dags/step_four.py
+[2025-04-08T10:11:42.802+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:42.802+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:11:42.814+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:42.814+0000] {dag.py:3834} INFO - Setting next_dagrun for clean_and_move_to_final_table to None, run_after=None
+[2025-04-08T10:11:42.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/step_four.py took 0.064 seconds
+[2025-04-08T10:12:13.880+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/step_four.py
+[2025-04-08T10:12:13.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/step_four.py for tasks to queue
+[2025-04-08T10:12:13.884+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:13.884+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/step_four.py
+[2025-04-08T10:12:13.892+0000] {processor.py:840} INFO - DAG(s) 'clean_and_move_to_final_table' retrieved from /opt/airflow/dags/step_four.py
+[2025-04-08T10:12:13.920+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:13.919+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:12:13.936+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:13.936+0000] {dag.py:3834} INFO - Setting next_dagrun for clean_and_move_to_final_table to None, run_after=None
+[2025-04-08T10:12:13.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/step_four.py took 0.087 seconds
+[2025-04-08T10:12:44.092+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/step_four.py
+[2025-04-08T10:12:44.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/step_four.py for tasks to queue
+[2025-04-08T10:12:44.097+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:44.096+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/step_four.py
+[2025-04-08T10:12:44.103+0000] {processor.py:840} INFO - DAG(s) 'clean_and_move_to_final_table' retrieved from /opt/airflow/dags/step_four.py
+[2025-04-08T10:12:44.125+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:44.124+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:12:44.141+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:44.141+0000] {dag.py:3834} INFO - Setting next_dagrun for clean_and_move_to_final_table to None, run_after=None
+[2025-04-08T10:12:44.164+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/step_four.py took 0.076 seconds
+[2025-04-08T10:13:14.698+0000] {processor.py:161} INFO - Started process (PID=379) to work on /opt/airflow/dags/step_four.py
+[2025-04-08T10:13:14.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/step_four.py for tasks to queue
+[2025-04-08T10:13:14.703+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:14.702+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/step_four.py
+[2025-04-08T10:13:14.710+0000] {processor.py:840} INFO - DAG(s) 'clean_and_move_to_final_table' retrieved from /opt/airflow/dags/step_four.py
+[2025-04-08T10:13:14.729+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:14.728+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:13:14.740+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:14.740+0000] {dag.py:3834} INFO - Setting next_dagrun for clean_and_move_to_final_table to None, run_after=None
+[2025-04-08T10:13:14.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/step_four.py took 0.067 seconds
+[2025-04-08T10:13:44.901+0000] {processor.py:161} INFO - Started process (PID=441) to work on /opt/airflow/dags/step_four.py
+[2025-04-08T10:13:44.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/step_four.py for tasks to queue
+[2025-04-08T10:13:44.904+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:44.904+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/step_four.py
+[2025-04-08T10:13:44.911+0000] {processor.py:840} INFO - DAG(s) 'clean_and_move_to_final_table' retrieved from /opt/airflow/dags/step_four.py
+[2025-04-08T10:13:44.930+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:44.930+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:13:44.943+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:44.943+0000] {dag.py:3834} INFO - Setting next_dagrun for clean_and_move_to_final_table to None, run_after=None
+[2025-04-08T10:13:44.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/step_four.py took 0.065 seconds

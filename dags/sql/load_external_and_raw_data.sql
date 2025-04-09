@@ -22,14 +22,14 @@ SELECT
 FROM `dtc-de-course-447820.my_project_dataset.external_monitoring_locations`;
 
 
-CREATE OR REPLACE EXTERNAL TABLE `dtc-de-course-447820.sandbox_my_project_dataset.external_cyclingdata_2023`
+CREATE OR REPLACE EXTERNAL TABLE `dtc-de-course-447820.my_project_dataset.external_cyclingdata_2023`
 OPTIONS (
   format = 'CSV',
   uris = ['gs://my-deproject-data-bucket/cycling_data/2023*.csv'],
   skip_leading_rows = 1  -- Skips header row if present
 );
 
-CREATE OR REPLACE EXTERNAL TABLE `dtc-de-course-447820.sandbox_my_project_dataset.external_cyclingdata_2024`
+CREATE OR REPLACE EXTERNAL TABLE `dtc-de-course-447820.my_project_dataset.external_cyclingdata_2024`
 OPTIONS (
   format = 'CSV',
   uris = ['gs://my-deproject-data-bucket/cycling_data/2024*.csv'],
@@ -37,7 +37,7 @@ OPTIONS (
 );
 
 -- Create or replace the raw table in BigQuery using data from the external table
-CREATE OR REPLACE TABLE `dtc-de-course-447820.sandbox_my_project_dataset.raw_cyclingdata_2023` AS
+CREATE OR REPLACE TABLE `dtc-de-course-447820.my_project_dataset.raw_cyclingdata_2023` AS
 SELECT
     `Wave`,
     `SiteID`,
@@ -50,11 +50,11 @@ SELECT
     `Path`,  
     `Mode`,
     `Count`
-FROM `dtc-de-course-447820.sandbox_my_project_dataset.external_cyclingdata_2023`;
+FROM `dtc-de-course-447820.my_project_dataset.external_cyclingdata_2023`;
 
 
 -- Create or replace the raw table in BigQuery using data from the external table
-CREATE OR REPLACE TABLE `dtc-de-course-447820.sandbox_my_project_dataset.raw_cyclingdata_2024` AS
+CREATE OR REPLACE TABLE `dtc-de-course-447820.my_project_dataset.raw_cyclingdata_2024` AS
 SELECT
     `Wave`,
     `SiteID`,
@@ -67,4 +67,4 @@ SELECT
     `Path`,  
     `Mode`,
     `Count`
-FROM `dtc-de-course-447820.sandbox_my_project_dataset.external_cyclingdata_2024`;
+FROM `dtc-de-course-447820.my_project_dataset.external_cyclingdata_2024`;

@@ -1,0 +1,49 @@
+[2025-04-08T10:10:41.137+0000] {processor.py:161} INFO - Started process (PID=61) to work on /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:10:41.139+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_fetch_url_csv.py for tasks to queue
+[2025-04-08T10:10:41.142+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:10:41.141+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:10:41.158+0000] {processor.py:840} INFO - DAG(s) 'test_fetch_url_csv' retrieved from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:10:41.203+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:10:41.202+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:10:41.225+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:10:41.225+0000] {dag.py:3834} INFO - Setting next_dagrun for test_fetch_url_csv to None, run_after=None
+[2025-04-08T10:10:41.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_fetch_url_csv.py took 0.132 seconds
+[2025-04-08T10:11:11.803+0000] {processor.py:161} INFO - Started process (PID=123) to work on /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:11:11.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_fetch_url_csv.py for tasks to queue
+[2025-04-08T10:11:11.806+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:11.806+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:11:11.812+0000] {processor.py:840} INFO - DAG(s) 'test_fetch_url_csv' retrieved from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:11:11.832+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:11.832+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:11:11.844+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:11.844+0000] {dag.py:3834} INFO - Setting next_dagrun for test_fetch_url_csv to None, run_after=None
+[2025-04-08T10:11:11.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_fetch_url_csv.py took 0.065 seconds
+[2025-04-08T10:11:42.693+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:11:42.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_fetch_url_csv.py for tasks to queue
+[2025-04-08T10:11:42.697+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:42.697+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:11:42.702+0000] {processor.py:840} INFO - DAG(s) 'test_fetch_url_csv' retrieved from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:11:42.722+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:42.721+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:11:42.733+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:11:42.733+0000] {dag.py:3834} INFO - Setting next_dagrun for test_fetch_url_csv to None, run_after=None
+[2025-04-08T10:11:42.753+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_fetch_url_csv.py took 0.063 seconds
+[2025-04-08T10:12:13.761+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:12:13.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_fetch_url_csv.py for tasks to queue
+[2025-04-08T10:12:13.768+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:13.767+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:12:13.778+0000] {processor.py:840} INFO - DAG(s) 'test_fetch_url_csv' retrieved from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:12:13.815+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:13.814+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:12:13.831+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:13.831+0000] {dag.py:3834} INFO - Setting next_dagrun for test_fetch_url_csv to None, run_after=None
+[2025-04-08T10:12:13.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_fetch_url_csv.py took 0.100 seconds
+[2025-04-08T10:12:44.000+0000] {processor.py:161} INFO - Started process (PID=315) to work on /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:12:44.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_fetch_url_csv.py for tasks to queue
+[2025-04-08T10:12:44.004+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:44.003+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:12:44.010+0000] {processor.py:840} INFO - DAG(s) 'test_fetch_url_csv' retrieved from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:12:44.031+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:44.030+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:12:44.045+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:12:44.045+0000] {dag.py:3834} INFO - Setting next_dagrun for test_fetch_url_csv to None, run_after=None
+[2025-04-08T10:12:44.069+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_fetch_url_csv.py took 0.072 seconds
+[2025-04-08T10:13:14.616+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:13:14.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_fetch_url_csv.py for tasks to queue
+[2025-04-08T10:13:14.620+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:14.619+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:13:14.627+0000] {processor.py:840} INFO - DAG(s) 'test_fetch_url_csv' retrieved from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:13:14.646+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:14.645+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:13:14.658+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:14.658+0000] {dag.py:3834} INFO - Setting next_dagrun for test_fetch_url_csv to None, run_after=None
+[2025-04-08T10:13:14.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_fetch_url_csv.py took 0.065 seconds
+[2025-04-08T10:13:44.816+0000] {processor.py:161} INFO - Started process (PID=439) to work on /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:13:44.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/test_fetch_url_csv.py for tasks to queue
+[2025-04-08T10:13:44.820+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:44.819+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:13:44.825+0000] {processor.py:840} INFO - DAG(s) 'test_fetch_url_csv' retrieved from /opt/airflow/dags/test_fetch_url_csv.py
+[2025-04-08T10:13:44.845+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:44.844+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-08T10:13:44.857+0000] {logging_mixin.py:188} INFO - [2025-04-08T10:13:44.857+0000] {dag.py:3834} INFO - Setting next_dagrun for test_fetch_url_csv to None, run_after=None
+[2025-04-08T10:13:44.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/test_fetch_url_csv.py took 0.067 seconds

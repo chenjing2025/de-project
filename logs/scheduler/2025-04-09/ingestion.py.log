@@ -1,0 +1,63 @@
+[2025-04-09T09:07:48.023+0000] {processor.py:161} INFO - Started process (PID=3760) to work on /opt/airflow/dags/ingestion.py
+[2025-04-09T09:07:48.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion.py for tasks to queue
+[2025-04-09T09:07:48.025+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:07:48.025+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:07:48.054+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:07:48.054+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-04-09T09:07:48.061+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:07:48.060+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-04-09T09:07:48.065+0000] {processor.py:840} INFO - DAG(s) 'fetch_filtered_data_and_upload_to_gcs' retrieved from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:07:48.176+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:07:48.175+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-09T09:07:48.189+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:07:48.189+0000] {dag.py:3834} INFO - Setting next_dagrun for fetch_filtered_data_and_upload_to_gcs to None, run_after=None
+[2025-04-09T09:07:48.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion.py took 0.200 seconds
+[2025-04-09T09:08:18.525+0000] {processor.py:161} INFO - Started process (PID=3822) to work on /opt/airflow/dags/ingestion.py
+[2025-04-09T09:08:18.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion.py for tasks to queue
+[2025-04-09T09:08:18.528+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:18.527+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:08:18.556+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:18.556+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-04-09T09:08:18.562+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:18.561+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-04-09T09:08:18.566+0000] {processor.py:840} INFO - DAG(s) 'fetch_filtered_data_and_upload_to_gcs' retrieved from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:08:18.583+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:18.583+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-09T09:08:18.597+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:18.597+0000] {dag.py:3834} INFO - Setting next_dagrun for fetch_filtered_data_and_upload_to_gcs to None, run_after=None
+[2025-04-09T09:08:18.626+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion.py took 0.105 seconds
+[2025-04-09T09:08:48.944+0000] {processor.py:161} INFO - Started process (PID=3884) to work on /opt/airflow/dags/ingestion.py
+[2025-04-09T09:08:48.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion.py for tasks to queue
+[2025-04-09T09:08:48.947+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:48.947+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:08:48.973+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:48.972+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-04-09T09:08:48.981+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:48.980+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-04-09T09:08:48.985+0000] {processor.py:840} INFO - DAG(s) 'fetch_filtered_data_and_upload_to_gcs' retrieved from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:08:48.999+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:48.999+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-09T09:08:49.014+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:08:49.014+0000] {dag.py:3834} INFO - Setting next_dagrun for fetch_filtered_data_and_upload_to_gcs to None, run_after=None
+[2025-04-09T09:08:49.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion.py took 0.116 seconds
+[2025-04-09T09:09:19.471+0000] {processor.py:161} INFO - Started process (PID=3946) to work on /opt/airflow/dags/ingestion.py
+[2025-04-09T09:09:19.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion.py for tasks to queue
+[2025-04-09T09:09:19.475+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:19.475+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:09:19.503+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:19.502+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-04-09T09:09:19.509+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:19.509+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-04-09T09:09:19.514+0000] {processor.py:840} INFO - DAG(s) 'fetch_filtered_data_and_upload_to_gcs' retrieved from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:09:19.532+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:19.531+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-09T09:09:19.545+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:19.545+0000] {dag.py:3834} INFO - Setting next_dagrun for fetch_filtered_data_and_upload_to_gcs to None, run_after=None
+[2025-04-09T09:09:19.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion.py took 0.101 seconds
+[2025-04-09T09:09:50.378+0000] {processor.py:161} INFO - Started process (PID=4008) to work on /opt/airflow/dags/ingestion.py
+[2025-04-09T09:09:50.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion.py for tasks to queue
+[2025-04-09T09:09:50.382+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:50.381+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:09:50.420+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:50.419+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-04-09T09:09:50.427+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:50.426+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-04-09T09:09:50.435+0000] {processor.py:840} INFO - DAG(s) 'fetch_filtered_data_and_upload_to_gcs' retrieved from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:09:50.470+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:50.469+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-09T09:09:50.519+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:09:50.518+0000] {dag.py:3834} INFO - Setting next_dagrun for fetch_filtered_data_and_upload_to_gcs to None, run_after=None
+[2025-04-09T09:09:50.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion.py took 0.189 seconds
+[2025-04-09T09:10:20.678+0000] {processor.py:161} INFO - Started process (PID=4070) to work on /opt/airflow/dags/ingestion.py
+[2025-04-09T09:10:20.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion.py for tasks to queue
+[2025-04-09T09:10:20.680+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:20.680+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:10:20.707+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:20.707+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-04-09T09:10:20.715+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:20.714+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-04-09T09:10:20.719+0000] {processor.py:840} INFO - DAG(s) 'fetch_filtered_data_and_upload_to_gcs' retrieved from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:10:20.739+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:20.739+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-09T09:10:20.754+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:20.754+0000] {dag.py:3834} INFO - Setting next_dagrun for fetch_filtered_data_and_upload_to_gcs to None, run_after=None
+[2025-04-09T09:10:20.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion.py took 0.109 seconds
+[2025-04-09T09:10:50.835+0000] {processor.py:161} INFO - Started process (PID=4131) to work on /opt/airflow/dags/ingestion.py
+[2025-04-09T09:10:50.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion.py for tasks to queue
+[2025-04-09T09:10:50.838+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:50.837+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:10:50.859+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:50.859+0000] {connection.py:269} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2025-04-09T09:10:50.865+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:50.865+0000] {base.py:83} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2025-04-09T09:10:50.870+0000] {processor.py:840} INFO - DAG(s) 'fetch_filtered_data_and_upload_to_gcs' retrieved from /opt/airflow/dags/ingestion.py
+[2025-04-09T09:10:50.884+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:50.883+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-04-09T09:10:50.902+0000] {logging_mixin.py:188} INFO - [2025-04-09T09:10:50.901+0000] {dag.py:3834} INFO - Setting next_dagrun for fetch_filtered_data_and_upload_to_gcs to None, run_after=None
+[2025-04-09T09:10:50.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion.py took 0.098 seconds

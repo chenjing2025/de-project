@@ -113,6 +113,7 @@ services:
 
   airflow-webserver:
     <<: *airflow-common
+    image: apache/airflow:2.8.2-python3.10 # add for dbt
     command: webserver
     ports:
       - "8080:8080"
@@ -127,6 +128,7 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+
 
   airflow-scheduler:
     <<: *airflow-common

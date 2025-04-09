@@ -12,3 +12,17 @@
 [2025-03-23T07:21:16.176+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=test_hello_dag, task_id=hello_task, execution_date=20250323T000000, start_date=20250323T072115, end_date=20250323T072116
 [2025-03-23T07:21:16.208+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
 [2025-03-23T07:21:16.227+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-06T09:08:19.578+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_hello_dag.hello_task scheduled__2025-03-23T00:00:00+00:00 [queued]>
+[2025-04-06T09:08:19.592+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_hello_dag.hello_task scheduled__2025-03-23T00:00:00+00:00 [queued]>
+[2025-04-06T09:08:19.592+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-04-06T09:08:19.605+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): hello_task> on 2025-03-23 00:00:00+00:00
+[2025-04-06T09:08:19.613+0000] {standard_task_runner.py:60} INFO - Started process 1478 to run task
+[2025-04-06T09:08:19.616+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'test_hello_dag', 'hello_task', 'scheduled__2025-03-23T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmp5q7ga_37']
+[2025-04-06T09:08:19.619+0000] {standard_task_runner.py:88} INFO - Job 19: Subtask hello_task
+[2025-04-06T09:08:19.665+0000] {task_command.py:423} INFO - Running <TaskInstance: test_hello_dag.hello_task scheduled__2025-03-23T00:00:00+00:00 [running]> on host 94ac0235f9be
+[2025-04-06T09:08:19.738+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='test_hello_dag' AIRFLOW_CTX_TASK_ID='hello_task' AIRFLOW_CTX_EXECUTION_DATE='2025-03-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-23T00:00:00+00:00'
+[2025-04-06T09:08:19.740+0000] {logging_mixin.py:188} INFO - Hello from Airflow!
+[2025-04-06T09:08:19.740+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-04-06T09:08:19.749+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=test_hello_dag, task_id=hello_task, execution_date=20250323T000000, start_date=20250406T090819, end_date=20250406T090819
+[2025-04-06T09:08:19.790+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-04-06T09:08:19.805+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check
