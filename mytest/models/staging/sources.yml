@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: "{{ env_var('DBT_DATABASE', 'dtc-de-course-447820') }}"
+    schema: "{{ env_var('DBT_SCHEMA', 'my_project_dataset') }}"
+
+    tables:
+      - name: raw_monitoring_locations
+      - name: raw_cyclingdata_2023
+      - name: raw_cyclingdata_2024
