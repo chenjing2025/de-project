@@ -16,7 +16,7 @@ WITH combined_data AS (
     a.Wave,
     b.Functional_area_for_monitoring
   FROM {{ source('staging', 'raw_cyclingdata_2023') }} a
-  JOIN {{ ref('monitoring_locations_final') }} b
+  JOIN {{ ref('monitoring_locations') }} b
   ON a.SiteID = b.Site_ID
 
   UNION ALL
@@ -36,7 +36,7 @@ WITH combined_data AS (
     a.Wave,
     b.Functional_area_for_monitoring
   FROM {{ source('staging', 'raw_cyclingdata_2024') }} a
-  JOIN {{ ref('monitoring_locations_final') }} b
+  JOIN {{ ref('monitoring_locations') }} b
   ON a.SiteID = b.Site_ID
 )
 
