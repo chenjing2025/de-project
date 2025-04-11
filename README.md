@@ -7,8 +7,8 @@
   * [Provision GCP Resources with Terraform](#provision-gcp-resources-with-terraform)
   * [Set Up Airflow with Docker](#set-up-airflow-with-docker)
 * [Data Pipeline Setup](#data-pipeline-setup)
-  * [Data Ingestion (Airflow DAG)](#data-ingestion-airflow-dag)
-  * [Data Transformation with DBT Cloud (BigQuery)](#data-transformation-with-dbt-cloud-bigquery)
+  * [Data Ingestion with Airflow DAG](#data-ingestion-with-airflow-dag)
+  * [Data Transformation with DBT Cloud](#data-transformation-with-dbt-cloud)
 * [Dashboard Setup](#dashboard-setup)
 * [Running the Pipeline](#running-the-pipeline)
 
@@ -246,25 +246,61 @@ docker-compose restart airflow-scheduler
 
 After restarting, navigate back to the Airflow Web UI at http://localhost:8080 to monitor and manage the DAGs.
 
-### Data Transformation with dbt
-🛠 Step 1: Create a SQL Query for Data Cleaning
+### Data Ingestion with Airflow DAG
+🛠 Step 1: Define the DAGs
+* Create DAGs for data fetching and loading.
+* Use the appropriate operators to handle GCS and BigQuery transfers.
+  
+**Important:** Ensure that you configure the gcp_conn_id in Airflow UI to establish a connection to your Google Cloud project.
+To do this:
+  1. Go to the Airflow UI.
+  2. Navigate to Admin > Connections.
+  3. Add a new connection with the following details:
+  ```yaml
+  Conn ID: google_cloud_default   
+  Conn Type: Google Cloud
+  Keyfile JSON: Paste the content of GCP service account JSON key here.
+  Project ID: Google Cloud project ID.
+  ```
+  Click `Save` to save the connection.
 
-Create a SQL file sql/transform_bike_rentals.sql:
+🛠 Step 2: Set Task Dependencies
+* Ensure the data_ingestion DAG runs first, followed by data_load_to_bq.
 
-```sql
--- Clean and filter data
-CREATE OR REPLACE TABLE `bike_rentals.dataset.cleaned_table` AS
-SELECT * 
-FROM `bike_rentals.dataset.raw_table`
-WHERE rental_count > 0;
-```
-🛠 Step 2: Run SQL in BigQuery
+🛠 Step 3: Automate and Monitor
+* Schedule the DAGs to run automatically using Airflow's scheduler.
+* Monitor the tasks and DAGs in the Airflow UI.
 
-Run the query in BigQuery Console or use:
+### Data Transformation with DBT Cloud
+🛠 Step 1: Create a DBT Cloud Account
+* Sign up at [getdbt.com](https://www.getdbt.com/).
+* After logging in, create a new project and link it to GitHub repository.
 
-```
-bq query --use_legacy_sql=false < sql/transform_bike_rentals.sql
-```
+🛠 Step 2: Connect to BigQuery
+* Navigate to Deploy > Environments > Configure Connection.
+* Choose BigQuery as the data platform.
+* Provide the following details:
+  * GCP Project ID
+  * Default Dataset (e.g., my_project_dataset)
+  * Location (e.g. US)
+  * Authentication using a service account JSON key
+* Upload your service account key. Once connected, DBT Cloud will manage your credentials and profiles.yml automatically.
+
+🛠 Step 3: Set Up Your DBT Project
+* Use the DBT Cloud IDE (built into the browser) to create your models — no local installation is required.
+* Inside the IDE:
+  * Navigate to the /models directory.
+  * Add new .sql files to define transformations.
+  * Use folders to organize models if needed (e.g., /models/staging, /models/core).
+
+🛠 Step 4: Define and Run Models
+* In each model .sql file, write a `SELECT` query that transforms your data in BigQuery.
+  * Example: `fact_cyclingdata.sql` aggregates cycling trips by mode, path, and location.
+* You can run commands directly in the command box at the bottom of the DBT Cloud IDE using:
+  * `dbt run` to execute all models or a specific model (e.g., `dbt run --select fact_cyclingdata`). 
+* Add tests to your project for data validation (dbt test) using .yml files or test blocks.
+* Schedule jobs under the Deploy > Jobs tab to automate runs on a recurring basis or after ingestion.
+
 ## Dashboard Setup
 
 1. Open Looker Studio → Click Create Report
@@ -282,6 +318,8 @@ bq query --use_legacy_sql=false < sql/transform_bike_rentals.sql
 - Build at least two visualizations:
     - Bar Chart → Categorical data distribution
     - Line Chart → Bike rentals over time
+
+<img src="images/dashboard.png" width="500">
 
 ## Running the Pipeline
 To run the entire pipeline:
