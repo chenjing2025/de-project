@@ -8,7 +8,7 @@
   * [Set Up Airflow with Docker](#set-up-airflow-with-docker)
 * [Data Pipeline Setup](#data-pipeline-setup)
   * [Data Ingestion (Airflow DAG)](#data-ingestion-airflow-dag)
-  * [Data Transformation with dbt](#data-transformation-with-dbt)
+  * [Data Transformation with DBT Cloud (BigQuery)](#data-transformation-with-dbt-cloud-bigquery)
 * [Dashboard Setup](#dashboard-setup)
 * [Running the Pipeline](#running-the-pipeline)
 
