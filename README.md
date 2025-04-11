@@ -301,6 +301,8 @@ To do this:
 * Add tests to your project for data validation (dbt test) using .yml files or test blocks.
 * Schedule jobs under the Deploy > Jobs tab to automate runs on a recurring basis or after ingestion.
 
+<img src="images/dbt_lineage.png" width="800">
+
 ## Dashboard Setup
 
 1. Open Looker Studio → Click Create Report
@@ -318,8 +320,6 @@ To do this:
 - Build at least two visualizations:
     - Bar Chart → Categorical data distribution
     - Line Chart → Bike rentals over time
-
-<img src="images/dashboard.png" width="500">
 
 ## Running the Pipeline
 To run the entire pipeline:
@@ -340,8 +340,20 @@ docker-compose up -d
 
 Open http://localhost:8080
 
-Run santander_bike_rentals_dag
+Run fetch_filtered_data_and_upload_to_gcs. once it completed. Run load_external_and_raw_data_to_bq.
 
-4️⃣ Check BigQuery for transformed data
+<p align="center">
+  <img src="images/dag_ingest_to_gcs.png" alt="Airflow dag_ingest_to_gcs" width="50%" />
+  <img src="images/dag_load_to_bq.png" alt="Airflow dag_load_to_bq" width="45%" />
+</p>
+
+4️⃣ Check GCS after ingestion and BigQuery after dbt transformed data
+
+<p align="center">
+  <img src="images/gcs.png" alt="Airflow dag_ingest_to_gcs" width="50%" />
+  <img src="images/bigquery.png" alt="Airflow dag_load_to_bq" width="45%" />
+</p>
 
 5️⃣ Open Looker Studio and refresh the dashboard
+
+<img src="images/dashboard.png" width="800">
