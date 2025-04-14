@@ -17,7 +17,7 @@ This guide will walk you through setting up an end-to-end data pipeline using Ap
 
 ## Problem Statement
 
-Transport for London (TfL) provides open datasets from its Santander Cycle Hire Scheme and pedestrian/cycle monitoring programs. These datasets, available at [TfL Cycling Data](https://cycling.data.tfl.gov.uk/), are fragmented across multiple CSV files categorized by borough, mode of transport, and year, making analysis time-consuming and difficult to scale.
+Transport for London (TfL) provides open datasets from its Santander Cycle Hire Scheme and cycle monitoring programs. These datasets, available at [TfL Cycling Data](https://cycling.data.tfl.gov.uk/), are fragmented across multiple CSV files categorized by borough, mode of transport, and year, making analysis time-consuming and difficult to scale.
 
 The goal of this project is to:
 
