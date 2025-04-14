@@ -16,6 +16,9 @@
 This guide will walk you through setting up an end-to-end data pipeline using Apache Airflow, Google Cloud Storage (GCS), BigQuery, and Looker Studio. By the end of this workshop, you'll have a working dashboard visualizing London Santander bike rental data.
 
 ## Problem Statement
+
+Transport for London (TfL) provides open datasets from its Santander Cycle Hire Scheme and pedestrian/cycle monitoring programs. These datasets, available at [TfL Cycling Data](https://cycling.data.tfl.gov.uk/), are fragmented across multiple CSV files categorized by borough, mode of transport, and year, making analysis time-consuming and difficult to scale.
+
 The goal of this project is to:
 
 ✅ Automate data ingestion from TfL (Transport for London) open data.
@@ -25,6 +28,18 @@ The goal of this project is to:
 ✅ Load and transform data into Google BigQuery for analytics.
 
 ✅ Build a dashboard in Looker Studio to visualize bike rental trends.
+
+The dashboard provides:
+
+🚲 Rental distribution across Central, Inner, and Outer London
+
+🛣️ Rental counts by cycle path type
+
+📊 Monthly and yearly rental trends with easy-to-read bar charts
+
+📍 Top 3 popular monitoring sites per area shown in a sortable table
+
+⏰ Hourly rental patterns by functional area to show peak usage times
 
 ## Cloud Setup
 ### Provision GCP Resources with Terraform
